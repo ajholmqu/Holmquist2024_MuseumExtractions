@@ -1,0 +1,256 @@
+---
+title: "Holmquist et al. 2024 manuscript figures"
+author: "Holmquist, AJ"
+date: "2024-09-04"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+knitr::opts_knit$set(root.dir = here())
+```
+
+Run all code from primary analysis code prior to reproducing the below figures
+```{r}
+# Figures
+library(tidyverse)
+library(ggpubr)
+library(pROC)
+library(DHARMa)
+library(ggsignif)
+```
+
+Figure 2. Interaction between NaCl molarity and collection year in prediction 
+of DNA concentration, 260/230 and 260/280 ratios NaCl figures
+```{r}
+nacl_palette <- c("#F7B538", "#DB7C26", "#DD4B1A")
+
+# Figure
+plot_260.230 <- 
+  nacl_filt %>%
+  mutate(
+    nacl = factor(nacl, 
+                  levels = c("1M", "2M", "2.5M"))) %>%
+  ggplot(
+       aes(year, r_260.230_norm)) +
+  geom_point(aes(color = nacl), size = 2, alpha = 0.3) +
+  geom_smooth(aes(color = nacl, linetype = nacl), method = "lm", se = F) +
+  theme_minimal() +
+  scale_color_manual(values = nacl_palette) +
+  xlab("Collection year") +
+  ylab("Log(260/230)") +
+  labs(color = "NaCl molarity", linetype = "NaCl molarity")
+
+plot_260.280 <- 
+  nacl_filt %>%
+  mutate(nacl = factor(nacl, levels = c("1M", "2M", "2.5M"))) %>%
+  ggplot(aes(year, r_260.280_norm)) +
+  geom_point(aes(color = nacl), size = 2, alpha = 0.3) +
+  geom_smooth(aes(color = nacl, linetype = nacl), method = "lm", se = F) +
+  theme_minimal() +
+  scale_color_manual(values = nacl_palette) +
+  xlab("Collection year") +
+  ylab("Log(260/280)") +
+  labs(color = "NaCl molarity", linetype = "NaCl molarity")
+
+conc_plot <- 
+  nacl_filt %>%
+  mutate(nacl = factor(nacl, levels = c("1M", "2M", "2.5M"))) %>%
+  ggplot(aes(year, conc_norm)) +
+  geom_point(aes(color = nacl), size = 2, alpha = 0.3) +
+  geom_smooth(aes(color = nacl, linetype = nacl), method = "lm", se = F) +
+  theme_minimal() +
+  scale_color_manual(values = nacl_palette) +
+  xlab("Collection year") +
+  ylab("Log(DNA concentration)") +
+  labs(color = "NaCl molarity", linetype = "NaCl molarity")
+
+interaction_nacl_year <- 
+  ggarrange(conc_plot, plot_260.230, plot_260.280, common.legend = T, 
+            nrow = 1, ncol = 3)
+
+ggsave("figure2.png", 
+       width = 9, height = 4, units = "in", 
+       dpi = 500)
+```
+
+Figure 3. Amplification success of the 658 bp full COI gene and the 181 bp 
+mini-barcode using different bead ratios, PEG-8000 concentrations, and NaCl molarities
+```{r}
+amplification_success_bar <- 
+  nacl_filt %>%
+  pivot_longer(cols = c(mini, full),
+               names_to = "amplicon", 
+               values_to = "success") %>%
+  mutate(success = ifelse(success == 1, "Yes", "No"),
+         nacl = factor(nacl, levels = c("1M", "2M", "2.5M")),
+         amplicon = ifelse(amplicon == "full", 
+                           "Full barcode (658bp)",
+                           "Mini barcode (181bp)")) %>%
+  ggplot() +
+  geom_bar(aes(nacl, fill = success),
+           linewidth = 2, alpha = 0.9) +
+  facet_grid(peg~ratio) +
+  theme_minimal() +
+  scale_fill_manual(values = c("#0E2D2F", "#7399AB")) +
+  scale_color_manual(values = nacl_palette) +
+  facet_grid(ratio+peg ~ amplicon) +
+  labs(
+    fill = "Amplification success"
+  ) +
+  theme(
+    axis.title.y = element_blank(),  # Remove y-axis title
+    axis.text.y = element_blank(),   # Remove y-axis text labels
+    axis.ticks.y = element_blank(),
+    legend.position = "bottom") +
+  xlab("NaCl")
+
+ggsave("figures/figure3.png", 
+       height = 4.5, width = 4.5, units = "in",
+       dpi = 500)
+
+```
+
+Figure 4. Comparison of DNA concentrations produced from the fly samples 
+(H. sonomensis) and beetle samples (P. andrewsi) using four different 
+extraction methods. 
+```{r}
+extract_colors <- c("#DFB77C", "#90857A","#597788", "#8D5D2A")
+
+dip_box <- 
+  ggplot(diptera, aes(x = method, y = qubit)) +
+  geom_boxplot(aes(fill = method)) +
+  geom_jitter(alpha = 0.5, size = 2) +
+  geom_signif(comparisons = list(c("Qiagen DNeasy", "HotShot"), 
+                                 c("Qiagen DNeasy", "Qiagen Puregene"),
+                                 c("Qiagen DNeasy", "Bead-based method")),
+              annotations = c("***", "***", "***"), 
+              y_position = c(2.1, 2.4, 2.7),
+              map_signif_level = TRUE) +
+  ylim(0, 3) +
+  xlab("Extraction method") +
+  scale_fill_manual(values = extract_colors) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, size = 9)) +
+  labs(title = "Fly",
+       fill = "Extraction method") +
+  ylab("Qubit Concentration (ng/uL)")
+
+coleo_box <- ggplot(coleo, aes(x = method, y = qubit)) +
+  geom_boxplot(aes(fill = method)) +
+  geom_jitter(alpha = 0.5, size = 2) + 
+  ylim(0, 32) +
+  xlab("Extraction method") +
+  geom_signif(comparisons = list(c("Qiagen DNeasy", "HotShot"), 
+                                 c("Qiagen DNeasy", "Qiagen Puregene"),
+                                 c("Qiagen DNeasy", "Bead-based method")),
+              annotations = c("**", "***", "n.s."), 
+              y_position = c(23, 26, 29),
+              map_signif_level = TRUE) +
+  scale_fill_manual(values = extract_colors) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, size = 9)) +
+  labs(title = "Beetle",
+       fill = "Extraction method") +
+  ylab("Qubit Concentration (ng/uL)")
+
+conc_boxplot <-
+  ggarrange(dip_box, coleo_box, common.legend = TRUE)
+
+ggsave("figures/figure4.png", 
+       width = 6.5, height = 5, units = "in", 
+       dpi = 500)
+
+```
+
+Figure 6. Boxplot showing the impact of input tissue type on normalized DNA concentration. 
+```{r}
+conc_method_boxplot <- 
+  highthroughput_nanodrop %>%
+  mutate(method = ifelse(method == "destructive",
+                         "Subsampled tissue",
+                         "Non-destructive whole-body")) %>%
+  ggplot(aes(method, conc_norm)) +
+  geom_boxplot(aes(fill = method),
+               outlier.size = 2,
+               alpha = 0.8) +
+  geom_jitter(aes(shape = method), alpha = 0.3) +
+  geom_signif(comparisons = list(c("Subsampled tissue", 
+                                   "Non-destructive whole-body")),
+              annotations = "***", 
+              y_position = 7,
+              map_signif_level = TRUE)  +
+  scale_fill_manual(values = c("#7A5C58", "#8D80AD")) +
+  theme_minimal() +
+  ylab("Normalized DNA concentration") +
+  xlab("") +
+  labs(fill = "Lysis method",
+       shape = "Lysis method") +
+  theme(legend.position = "top")
+
+ggsave("figures/figure6.png", 
+       width = 5, height = 4, units = "in",
+       dpi = 500)
+
+```
+
+Supporting Materials:
+
+S1. Figure 1
+```{r}
+norm_conc_box <- 
+  nacl %>%
+  ggplot(aes(catalog, concentration)) +
+  geom_boxplot(aes(fill = catalog), alpha = 0.9) +
+  geom_jitter(alpha = 0.1) + 
+  theme_minimal() +
+  theme(legend.position = "none", 
+        axis.text.x = element_blank()) +
+   xlab("Sample") +
+   ylab("DNA Concentration")
+
+ggsave("supplementary/figures/S1Figure1.png", 
+       width = 5.8, height = 4.6, unit = "in", dpi = 500)
+```
+
+S1. Figure 2 - Figure 7 (model diagnostics)
+```{r}
+
+# Concentration
+sim_res_conc <- simulateResiduals(fittedModel = conc_naclyear)
+DHARMa::plotQQunif(sim_res_conc)
+DHARMa::plotResiduals(sim_res_conc)
+
+# 260/280
+sim_res_260.280 <- simulateResiduals(fittedModel = nacl_260.280) 
+DHARMa::plotQQunif(sim_res_260.280)
+DHARMa::plotResiduals(sim_res_260.280)
+      
+# 260/230
+sim_res_260.230 <- simulateResiduals(fittedModel = naclyear_260.230)
+DHARMa::plotQQunif(sim_res_260.230)
+DHARMa::plotResiduals(sim_res_260.230)
+      
+# PCR Model
+roc_curve <- 
+  roc(response = nacl_filt$mini, predictor = predict(pcr_model_nacl, type = "response"))
+plot(roc_curve)
+
+sim_res_pcr <- simulateResiduals(fittedModel = pcr_model_nacl)
+DHARMa::plotQQunif(sim_res_pcr)
+DHARMa::plotResiduals(sim_res_pcr)
+```
+
+S1. Figure 8 
+```{r}
+ggplot(highthroughput_nanodrop, aes(year_norm, conc_norm)) +
+  geom_point(aes(year_norm, conc_norm), alpha = 0.5) +
+  geom_smooth(aes(color = method), method = "lm") +
+  theme_minimal()
+
+ggsave("supplementary/figures/S1Figure8.png", 
+       width = 6, height = 4.5, unit = "in", 
+       dpi = 500)
+```

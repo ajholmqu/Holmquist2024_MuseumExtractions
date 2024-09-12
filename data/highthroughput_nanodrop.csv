@@ -1,0 +1,496 @@
+catalog,well,plate,error,gdna_id,date.x,by,concentration,x260_280,x260_230,check_catalog_well,notes,order,family,genus,species,date.y,dates_corr,year,orders,method,conc_norm,year_norm
+23S458,B3,CDFA_P1,NA,NA,NA,NA,6.7,2.28,1.08,Yes,NA,Diptera,Conopidae,Dalmannia,vitiosa,45100,2023-06-23,2023,Diptera,destructive,1.9021075263969205,7.612336837167746
+23S463,B6,CDFA_P1,NA,NA,NA,NA,1.8,1.57,0.37,Yes,NA,Diptera,Tephritidae,Tephritis,signatipennis,45100,2023-06-23,2023,Diptera,destructive,0.5877866649021191,7.612336837167746
+23S466,B7,CDFA_P1,NA,NA,NA,NA,3,2.28,0.33,Yes,NA,Diptera,Tephritidae,Campiglossa,clathrata,45100,2023-06-23,2023,Diptera,destructive,1.0986122886681098,7.612336837167746
+23S468,D8,CDFA_P1,NA,NA,NA,NA,5.6,3.33,0.57,Yes,NA,Diptera,Tephritidae,Neotephritis,finalis,45100,2023-06-23,2023,Diptera,destructive,1.7227665977411035,7.612336837167746
+23S469,F9,CDFA_P1,NA,NA,NA,NA,11.1,2.1,1.9,Yes,NA,Diptera,Tephritidae,Tephritis,araneosa (pacifica),45100,2023-06-23,2023,Diptera,destructive,2.4069451083182885,7.612336837167746
+23S470,B9,CDFA_P1,NA,NA,NA,NA,4.8,2.29,0.29,Yes,NA,Diptera,Tephritidae,Procecidochares,anthracina,45100,2023-06-23,2023,Diptera,destructive,1.5686159179138452,7.612336837167746
+23S472,C4,CDFA_P1,NA,NA,NA,NA,5.5,2.17,0.75,Yes,NA,Diptera,Tephritidae,Trupanea,jonesi,45079,2023-06-02,2023,Diptera,destructive,1.7047480922384253,7.612336837167746
+23S474,D5,CDFA_P1,NA,NA,NA,NA,4.4,2.52,0.68,Yes,NA,Diptera,Ulidiidae,Curranops,scutellaris,45086,2023-06-09,2023,Diptera,destructive,1.4816045409242156,7.612336837167746
+23S476,B4,CDFA_P1,NA,NA,NA,NA,6.8,2.07,0.73,Yes,NA,Diptera,Tephritidae,Chaetorellia,succinea,45102,2023-06-25,2023,Diptera,destructive,1.916922612182061,7.612336837167746
+23S477,B5,CDFA_P1,NA,NA,NA,NA,3,1.5,0.27,Yes,NA,Diptera,Tephritidae,Tephritis,araneosa (pacifica),45086,2023-06-09,2023,Diptera,destructive,1.0986122886681098,7.612336837167746
+23S529,C6,CDFA_P1,NA,NA,NA,NA,16.8,2.18,1.25,Yes,NA,Diptera,Tephritidae,Oxyna,palpalis,45072,2023-05-26,2023,Diptera,destructive,2.8213788864092133,7.612336837167746
+23S531,F6,CDFA_P1,NA,NA,NA,NA,11,2.06,0.95,Yes,NA,Diptera,Tephritidae,Trupanea,signata,45100,2023-06-23,2023,Diptera,destructive,2.3978952727983707,7.612336837167746
+23S594,B2,CDFA_P1,NA,NA,NA,NA,2.8,1.9,0.38,Yes,NA,Diptera,Tephritidae,Paracantha,cultaris,45116,2023-07-09,2023,Diptera,destructive,1.029619417181158,7.612336837167746
+23S648,B1,CDFA_P1,NA,NA,NA,NA,1.1,3.94,0.4,Yes,NA,Diptera,Tephritidae,Trupanea,femoralis,45044,2023-04-28,2023,Diptera,destructive,0.09531017980432492,7.612336837167746
+23S682,C8,CDFA_P1,NA,NA,NA,NA,4.6,2.16,0.69,Yes,NA,Diptera,Tephritidae,Eutreta,hespera,45100,2023-06-23,2023,Diptera,destructive,1.5260563034950492,7.612336837167746
+23S683,C2,CDFA_P1,NA,NA,NA,NA,12.5,1.88,1.35,Yes,NA,Diptera,Tephritidae,Procecidochares,anthracina,45100,2023-06-23,2023,Diptera,destructive,2.5257286443082556,7.612336837167746
+23S684,C1,CDFA_P1,NA,NA,NA,NA,1.1,2.47,0.2,Yes,NA,Diptera,Tephritidae,Procecidochares,minuta,45100,2023-06-23,2023,Diptera,destructive,0.09531017980432492,7.612336837167746
+23S687,D1,CDFA_P1,NA,NA,NA,NA,1.1,-2.07,0.24,Yes,NA,Diptera,Tephritidae,Trupanea,signata,45100,2023-06-23,2023,Diptera,destructive,0.09531017980432492,7.612336837167746
+23S688,D2,CDFA_P1,NA,NA,NA,NA,4.4,4.78,1.12,Yes,NA,Diptera,Ulidiidae,Diacrita,costalis,45088,2023-06-11,2023,Diptera,destructive,1.4816045409242156,7.612336837167746
+23S734,A1,CDFA_P1,NA,NA,NA,NA,3.7,1.97,0.32,Yes,NA,Diptera,Tephritidae,Trupanea,signata,45100,2023-06-23,2023,Diptera,destructive,1.308332819650179,7.612336837167746
+23S735,A2,CDFA_P1,NA,NA,NA,NA,8.3,1.6,0.2,Yes,NA,Diptera,Tephritidae,Terellia,occidentalis,45154,2023-08-16,2023,Diptera,destructive,2.1162555148025524,7.612336837167746
+23S737,A3,CDFA_P1,NA,NA,NA,NA,9.2,1.61,0.25,Yes,NA,Diptera,Pallopteridae,Toxonevra,jucunda,45154,2023-08-16,2023,Diptera,destructive,2.2192034840549946,7.612336837167746
+23S738,A4,CDFA_P1,NA,NA,NA,NA,5.8,1.53,0.35,Yes,NA,Diptera,Tephritidae,Rhagoletis,juniperina,45154,2023-08-16,2023,Diptera,destructive,1.7578579175523736,7.612336837167746
+23S739,A5,CDFA_P1,NA,NA,NA,NA,0.9,1.91,0.56,Yes,NA,Diptera,Tephritidae,Campiglossa,jamesi,45154,2023-08-16,2023,Diptera,destructive,-0.10536051565782628,7.612336837167746
+23S740,A6,CDFA_P1,NA,NA,NA,NA,0.7,0.9,0.2,Yes,NA,Diptera,Tephritidae,Campiglossa,jamesi,45154,2023-08-16,2023,Diptera,destructive,-0.35667494393873245,7.612336837167746
+23S741,A7,CDFA_P1,NA,NA,NA,NA,0.9,1.77,0.47,Yes,NA,Diptera,Tephritidae,Campiglossa,farinata,45154,2023-08-16,2023,Diptera,destructive,-0.10536051565782628,7.612336837167746
+23S742,A8,CDFA_P1,NA,NA,NA,NA,18.8,2.08,1.95,Yes,NA,Diptera,Tephritidae,Campiglossa,farinata,45154,2023-08-16,2023,Diptera,destructive,2.933856869835904,7.612336837167746
+23S755,B8,CDFA_P1,NA,NA,NA,NA,1.2,2.48,0.49,Yes,NA,Diptera,Tephritidae,Campiglossa,farinata,45154,2023-08-16,2023,Diptera,destructive,0.1823215567939546,7.612336837167746
+23S758,D3,CDFA_P1,NA,NA,NA,NA,9.3,1.7,0.22,Yes,NA,Coleoptera,Cerambycidae,Tragosoma,harrisii,45154,2023-08-16,2023,Coleoptera,destructive,2.2300144001592104,7.612336837167746
+23S760,D6,CDFA_P1,NA,NA,NA,NA,16.8,2.16,1.5,Yes,NA,Diptera,Tephritidae,Oxyna,palpalis,45072,2023-05-26,2023,Diptera,destructive,2.8213788864092133,7.612336837167746
+23S761,D7,CDFA_P1,NA,NA,NA,NA,0.2,-0.2,0.07,Yes,NA,Diptera,Ulidiidae,Curranops,scutellaris,45086,2023-06-09,2023,Diptera,destructive,-1.6094379124341005,7.612336837167746
+23S764,D9,CDFA_P1,NA,NA,NA,NA,3.8,2.28,0.32,Yes,NA,Diptera,Ulidiidae,Curranops,scutellaris,45086,2023-06-09,2023,Diptera,destructive,1.33500106673234,7.612336837167746
+23S766,E3,CDFA_P1,NA,NA,NA,NA,2,2.58,0.5,Yes,NA,Diptera,Tephritidae,Euarestoides,acutangulus,45072,2023-05-26,2023,Diptera,destructive,0.6931471805599453,7.612336837167746
+23S767,E2,CDFA_P1,NA,NA,NA,NA,7.3,1.9,0.56,Yes,NA,Diptera,Tephritidae,Tephritis,nr webbii,45086,2023-06-09,2023,Diptera,destructive,1.9878743481543455,7.612336837167746
+23S768,E4,CDFA_P1,NA,NA,NA,NA,2.4,2.7,0.33,Yes,NA,Diptera,Tephritidae,Tephritis,nr webbii,45086,2023-06-09,2023,Diptera,destructive,0.8754687373538999,7.612336837167746
+23S769,E5,CDFA_P1,NA,NA,NA,NA,2.1,2.65,0.55,Yes,NA,Diptera,Tephritidae,Neaspilota,viridescens,45104,2023-06-27,2023,Diptera,destructive,0.7419373447293773,7.612336837167746
+23S770,E6,CDFA_P1,NA,NA,NA,NA,0.2,-0.91,0.24,Yes,NA,Diptera,Tephritidae,Neaspilota,viridescens,45104,2023-06-27,2023,Diptera,destructive,-1.6094379124341005,7.612336837167746
+23S771,E7,CDFA_P1,NA,NA,NA,NA,6.6,1.64,0.29,Yes,NA,Diptera,Tephritidae,Campiglossa,genalis,45105,2023-06-28,2023,Diptera,destructive,1.8870696490323795,7.612336837167746
+23S777,E8,CDFA_P1,NA,NA,NA,NA,2.8,1.79,0.66,Yes,NA,Diptera,Tephritidae,Campiglossa,genalis,45105,2023-06-28,2023,Diptera,destructive,1.029619417181158,7.612336837167746
+23S778,E9,CDFA_P1,NA,NA,NA,NA,4,1.93,1.2,Yes,NA,Diptera,Tephritidae,Urophora,sirunaseva,45102,2023-06-25,2023,Diptera,destructive,1.3862943611198906,7.612336837167746
+23S779,F1,CDFA_P1,NA,NA,NA,NA,3.5,1.75,0.33,Yes,NA,Diptera,Tephritidae,Urophora,sirunaseva,45102,2023-06-25,2023,Diptera,destructive,1.252762968495368,7.612336837167746
+23S780,F2,CDFA_P1,NA,NA,NA,NA,5.3,1.96,1.26,Yes,NA,Diptera,Tephritidae,Oxyna,aterrima,45100,2023-06-23,2023,Diptera,destructive,1.667706820558076,7.612336837167746
+23S781,F3,CDFA_P1,NA,NA,NA,NA,18,2.11,1.67,Yes,NA,Diptera,Tephritidae,Oxyna,aterrima,45100,2023-06-23,2023,Diptera,destructive,2.8903717578961645,7.612336837167746
+23S782,F5,CDFA_P1,NA,NA,NA,NA,10.5,2.28,1.21,Yes,NA,Diptera,Tephritidae,Tephritis,ovatipennis,45105,2023-06-28,2023,Diptera,destructive,2.3513752571634776,7.612336837167746
+23S783,F4,CDFA_P1,NA,NA,NA,NA,9.7,2.04,1.19,Yes,NA,Diptera,Tephritidae,Tephritis,ovatipennis,45105,2023-06-28,2023,Diptera,destructive,2.272125885509337,7.612336837167746
+23S784,F8,CDFA_P1,NA,NA,NA,NA,20.8,2.01,1.06,Yes,NA,Diptera,Tephritidae,Tephritis,ovatipennis,45105,2023-06-28,2023,Diptera,destructive,3.0349529867072724,7.612336837167746
+23S785,F7,CDFA_P1,NA,NA,NA,NA,4.8,2.1,0.96,Yes,NA,Diptera,Tephritidae,Trupanea,bisetosa,44903,2022-12-08,2022,Diptera,destructive,1.5686159179138452,7.611842399580417
+23S786,G1,CDFA_P1,NA,NA,NA,NA,7.2,2.05,1.06,Yes,NA,Diptera,Tephritidae,Trupanea,signata,45100,2023-06-23,2023,Diptera,destructive,1.9740810260220096,7.612336837167746
+23S787,G2,CDFA_P1,NA,NA,NA,NA,3.2,1.97,0.28,Yes,NA,Diptera,Tephritidae,Tephritis,araneosa (pacifica),45100,2023-06-23,2023,Diptera,destructive,1.1631508098056809,7.612336837167746
+23S788,G3,CDFA_P1,NA,NA,NA,NA,13.4,2.01,1.21,Yes,NA,Diptera,Stratiomyidae,Pachygaster,montana,45088,2023-06-11,2023,Diptera,destructive,2.5952547069568657,7.612336837167746
+23S789,G4,CDFA_P1,NA,NA,NA,NA,8.1,1.96,1.33,Yes,NA,Diptera,Stratiomyidae,Pachygaster,montana,45088,2023-06-11,2023,Diptera,destructive,2.0918640616783932,7.612336837167746
+23S790,G5,CDFA_P1,NA,NA,NA,NA,15.3,2.12,1.1,Yes,NA,Diptera,Stratiomyidae,Pachygaster,montana,45088,2023-06-11,2023,Diptera,destructive,2.72785282839839,7.612336837167746
+23S791,G6,CDFA_P1,NA,NA,NA,NA,6,2.32,0.76,Yes,NA,Diptera,Stratiomyidae,Dieuryneura,stigma,45088,2023-06-11,2023,Diptera,destructive,1.791759469228055,7.612336837167746
+23S792,G7,CDFA_P1,NA,NA,NA,NA,10.5,2.02,1.25,Yes,NA,Diptera,Stratiomyidae,Dieuryneura,stigma,45088,2023-06-11,2023,Diptera,destructive,2.3513752571634776,7.612336837167746
+23S793,G8,CDFA_P1,NA,NA,NA,NA,25.8,1.92,0.56,Yes,NA,Diptera,Stratiomyidae,Dieuryneura,stigma,45088,2023-06-11,2023,Diptera,destructive,3.250374491927572,7.612336837167746
+23S794,G9,CDFA_P1,NA,NA,NA,NA,5.1,2.11,0.62,Yes,NA,Diptera,Conopidae,Zodion,obliquefasciatum,45088,2023-06-11,2023,Diptera,destructive,1.62924053973028,7.612336837167746
+23S795,H1,CDFA_P1,NA,NA,NA,NA,17.6,2.17,1.07,Yes,NA,Diptera,Conopidae,Zodion,obliquefasciatum,45088,2023-06-11,2023,Diptera,destructive,2.8678989020441064,7.612336837167746
+23S796,H2,CDFA_P1,NA,NA,NA,NA,15.4,2.17,1,Yes,NA,Diptera,Tephritidae,Campiglossa,variabilis,40018,2009-07-24,2009,Diptera,destructive,2.7343675094195836,7.605392364814935
+23S797,H3,CDFA_P1,NA,NA,NA,NA,10.9,1.95,0.76,Yes,NA,Diptera,Tephritidae,Campiglossa,variabilis,40018,2009-07-24,2009,Diptera,destructive,2.388762789235098,7.605392364814935
+23S798,H4,CDFA_P1,NA,NA,NA,NA,5.9,1.6,0.44,Yes,NA,Diptera,Tephritidae,Tephritis,araneosa complex,40018,2009-07-24,2009,Diptera,destructive,1.7749523509116738,7.605392364814935
+23S805,H5,CDFA_P1,NA,NA,NA,NA,9,1.75,0.23,Yes,NA,Diptera,Ulidiidae,Oedopa,capito,40390,2010-07-31,2010,Diptera,destructive,2.1972245773362196,7.605890001053122
+23S806,H6,CDFA_P1,NA,NA,NA,NA,7.2,2.1,0.62,Yes,NA,Diptera,Ulidiidae,Oedopa,capito,40390,2010-07-31,2010,Diptera,destructive,1.9740810260220096,7.605890001053122
+23S807,H7,CDFA_P1,NA,NA,NA,NA,23.1,1.71,0.58,Yes,NA,Diptera,Tephritidae,Trupanea,radifera,42881,2017-05-26,2017,Diptera,destructive,3.139832617527748,7.6093665379542115
+23S811,A11,CDFA_P1,NA,NA,NA,NA,3.2,1.68,0.3,Yes,NA,Diptera,Tephritidae,Euaresta,stigmatica,42891,2017-06-05,2017,Diptera,destructive,1.1631508098056809,7.6093665379542115
+23S812,A10,CDFA_P1,NA,NA,NA,NA,5.9,1.83,0.26,Yes,NA,Diptera,Tephritidae,Euaresta,stigmatica,42891,2017-06-05,2017,Diptera,destructive,1.7749523509116738,7.6093665379542115
+23S814,B11,CDFA_P1,NA,NA,NA,NA,5.2,2.28,1.82,Yes,NA,Diptera,Tephritidae,Campiglossa,genalis,44346,2021-05-30,2021,Diptera,destructive,1.6486586255873816,7.611347717403621
+23S815,B10,CDFA_P1,NA,NA,NA,NA,2.4,1.64,0.24,Yes,NA,Diptera,Tephritidae,Campiglossa,genalis,44346,2021-05-30,2021,Diptera,destructive,0.8754687373538999,7.611347717403621
+23S816,B12,CDFA_P1,NA,NA,NA,NA,16.4,1.83,0.4,Yes,NA,Diptera,Tephritidae,Paraterellia,ypsilon,44360,2021-06-13,2021,Diptera,destructive,2.797281334830153,7.611347717403621
+23S817,C10,CDFA_P1,NA,NA,NA,NA,12.3,2.04,0.41,Yes,NA,Diptera,Tephritidae,Paraterellia,ypsilon,44360,2021-06-13,2021,Diptera,destructive,2.509599262378372,7.611347717403621
+23S818,C11,CDFA_P1,NA,NA,NA,NA,10.9,2.16,1.07,Yes,NA,Diptera,Tephritidae,Aciurina,ferruginea,38862,2006-05-25,2006,Diptera,destructive,2.388762789235098,7.603897968521881
+23S819,C12,CDFA_P1,NA,NA,NA,NA,15.1,2.34,2.26,Yes,NA,Diptera,Tephritidae,Procecidochares,anthracina,38862,2006-05-25,2006,Diptera,destructive,2.714694743820879,7.603897968521881
+23S820,D10,CDFA_P1,NA,NA,NA,NA,2.4,2.54,0.51,Yes,NA,Diptera,Tephritidae,Eutreta,pollinosa,43231,2018-05-11,2018,Diptera,destructive,0.8754687373538999,7.609862200913554
+23S824,G10,CDFA_P1,NA,NA,NA,NA,7.8,2.14,1.44,Yes,NA,Diptera,Tephritidae,Campiglossa,snowi,45149,2023-08-11,2023,Diptera,destructive,2.0541237336955462,7.612336837167746
+23S825,E11,CDFA_P1,NA,NA,NA,NA,8.4,2.4,1.43,Yes,NA,Diptera,Tephritidae,Campiglossa,snowi,45149,2023-08-11,2023,Diptera,destructive,2.128231705849268,7.612336837167746
+23S826,G11,CDFA_P1,NA,NA,NA,NA,24.4,2.13,1.61,Yes,NA,Diptera,Tephritidae,Eutreta,diana,45149,2023-08-11,2023,Diptera,destructive,3.194583132299156,7.612336837167746
+23S827,G12,CDFA_P1,NA,NA,NA,NA,5.8,1.77,0.51,Yes,NA,Diptera,Tephritidae,Eutreta,diana,45149,2023-08-11,2023,Diptera,destructive,1.7578579175523736,7.612336837167746
+23S828,E10,CDFA_P1,NA,NA,NA,NA,0.7,-3.24,0.43,Yes,NA,Diptera,Tephritidae,Campiglossa,snowi,45149,2023-08-11,2023,Diptera,destructive,-0.35667494393873245,7.612336837167746
+23S829,E12,CDFA_P1,NA,NA,NA,NA,1.2,4.05,0.58,Yes,NA,Diptera,Tephritidae,Neaspilota,achilleae,44795,2022-08-22,2022,Diptera,destructive,0.1823215567939546,7.611842399580417
+23S834,F10,CDFA_P1,NA,NA,NA,NA,5.2,1.83,1.04,Yes,NA,Diptera,Tephritidae,Neaspilota,signifera,45044,2023-04-28,2023,Diptera,destructive,1.6486586255873816,7.612336837167746
+23S835,F11,CDFA_P1,NA,NA,NA,NA,2.2,2.06,0.65,Yes,NA,Diptera,Tephritidae,Neaspilota,signifera,45044,2023-04-28,2023,Diptera,destructive,0.7884573603642703,7.612336837167746
+23S836,F12,CDFA_P1,NA,NA,NA,NA,8.3,2.15,0.93,Yes,NA,Diptera,Tephritidae,Neaspilota,signifera,45044,2023-04-28,2023,Diptera,destructive,2.1162555148025524,7.612336837167746
+23S846,H12,CDFA_P1,NA,NA,NA,NA,11.9,1.88,0.69,Yes,NA,Diptera,Tephritidae,Chetostoma,californicum,39198,2007-04-26,2007,Diptera,destructive,2.4765384001174837,7.604396348796338
+23T287,A1,CDFA_P16,NA,NA,NA,NA,56.8,2.06,0.69,Yes,NA,Diptera,Ulidiidae,Tritoxa,callifornica,6.IX.2023,2023-09-06,2023,Diptera,non_destructive,4.039536325727106,7.612336837167746
+23T391,A1,CDFA_P4,NA,NA,NA,NA,10.8,1.62,0.53,Yes,NA,Hymenoptera,Mutillidae,Sphaeropthalma,edwardsii,23.VII.2017,2017-07-23,2017,Hymenoptera,destructive,2.379546134130174,7.6093665379542115
+23T470,B1,CDFA_P4,NA,NA,NA,NA,5.4,2.2,0.83,Yes,NA,Hymenoptera,Mutillidae,Sphaeropthalma,megagnathos,24.VI.2017,2017-06-24,2017,Hymenoptera,destructive,1.6863989535702288,7.6093665379542115
+23T485,C1,CDFA_P4,NA,NA,NA,NA,5.8,1.85,0.24,Yes,NA,Hymenoptera,Mutillidae,Sphaeropthalma,pallida,3.VII.2016,2016-07-03,2016,Hymenoptera,destructive,1.7578579175523736,7.60887062919126
+23T506,D1,CDFA_P4,NA,NA,NA,NA,4.9,1.89,0.2,Yes,NA,Hymenoptera,Mutillidae,Sphaeropthalma,yavapai,31.VII.2016,2016-07-31,2016,Hymenoptera,destructive,1.589235205116581,7.60887062919126
+23T518,E1,CDFA_P4,NA,NA,NA,NA,1.6,-8.16,0.66,Yes,NA,Hymenoptera,Mutillidae,Acanthophotopsis,falciformis,27.V.2017,2017-05-27,2017,Hymenoptera,destructive,0.4700036292457356,7.6093665379542115
+23T530,F1,CDFA_P4,NA,NA,NA,NA,4.9,2.03,0.59,Yes,NA,Hymenoptera,Mutillidae,Odontophotopsis,bellona,30.VI.2018,2018-06-30,2018,Hymenoptera,destructive,1.589235205116581,7.609862200913554
+23T542,G1,CDFA_P4,NA,NA,NA,NA,4.3,3.15,0.44,Yes,NA,Hymenoptera,Mutillidae,Odontophotopsis,delodonta,12.VIII.2018,2018-08-12,2018,Hymenoptera,destructive,1.4586150226995167,7.609862200913554
+23T563,H1,CDFA_P4,NA,NA,NA,NA,1.9,3.54,0.46,Yes,NA,Hymenoptera,Mutillidae,Odontophotopsis,hypermnestra,7.VII.2015,2015-07-07,2015,Hymenoptera,destructive,0.6418538861723947,7.608374474380783
+23T622,E1,CDFA_P16,NA,NA,NA,NA,42.2,2.28,1.43,Yes,NA,Diptera,Tephritidae,Tephritis,webbii,17.X.2023,2023-10-17,2023,Diptera,non_destructive,3.742420221041966,7.612336837167746
+23U1006,G4,CDFA_P14,NA,NA,NA,NA,16.7,2.04,1.32,Yes,NA,Diptera,Ephrydidae,Mosillus,bidentatus,28.IX.2004,2004-09-28,2004,NA,non_destructive,2.8154087194227095,7.602900462204755
+23U1009,B5,CDFA_P14,NA,NA,NA,NA,7.4,1.81,0.73,Yes,NA,Diptera,Ephrydidae,Scatella,sp.,14.V.2012,2012-05-14,2012,NA,non_destructive,2.0014800002101243,7.60688453121963
+23U1020,E6,CDFA_P14,NA,NA,NA,NA,3.8,1.65,0.18,Yes,NA,Diptera,Sphaeroceridae,Leptocera,acutangula,21.VII.1980,1980-07-21,1980,Diptera,non_destructive,1.33500106673234,7.590852123688581
+23U1024,A7,CDFA_P14,NA,NA,NA,NA,14.9,2.05,1.22,Yes,NA,Diptera,Sphaeroceridae,Lotophila,atra,21.I.1980,1980-01-21,1980,Diptera,non_destructive,2.7013612129514133,7.590852123688581
+23U1042,C9,CDFA_P14,NA,NA,NA,NA,7.9,2.04,0.55,Yes,NA,Diptera,Hippoboscidae,Lipoptena,depressa,30.VI.1994,1994-06-30,1994,Diptera,non_destructive,2.066862759472976,7.597897950521784
+23U1053,F10,CDFA_P14,NA,NA,NA,NA,36.6,1.71,1.4,Yes,NA,Diptera,Fanniidae,Fannia,cf. benjamini,12.XI.1986,1986-11-12,1986,Diptera,non_destructive,3.6000482404073204,7.593877844605118
+23U1059,D11,CDFA_P14,NA,NA,NA,NA,15.1,1.86,0.75,Yes,NA,Diptera,Muscidae,Musca,autumnalis,2009,NA,2009,Diptera,non_destructive,2.714694743820879,7.605392364814935
+23U227,A1,CDFA_P8,NA,NA,NA,NA,5.6,1.66,0.54,Yes,NA,Hemiptera,Hebridae,Hebrus,sp.,26.III.1987,1987-03-26,1987,Hemiptera,destructive,1.7227665977411035,7.594381242551817
+23U228,B1,CDFA_P8,NA,NA,NA,NA,5.4,1.34,0.23,Yes,NA,Hemiptera,Hebridae,Merragata,hebroides,22.VI.1983,1983-06-22,1983,Hemiptera,destructive,1.6863989535702288,7.592366128519796
+23U229,C1,CDFA_P8,NA,NA,NA,NA,6.6,1.4,0.46,Yes,NA,Hemiptera,Macroveliidae,Macrovelia,hornii,17.V.1996,1996-05-17,1996,Hemiptera,destructive,1.8870696490323795,7.59890045687141
+23U230,D1,CDFA_P8,NA,NA,NA,NA,6.2,1.41,0.28,Yes,NA,Hemiptera,Macroveliidae,Macrovelia,hornii,31.V.2006,2006-05-31,2006,Hemiptera,destructive,1.824549292051046,7.603897968521881
+23U231,E1,CDFA_P8,NA,NA,NA,NA,9.7,1.38,0.45,Yes,NA,Hemiptera,Gelastocoridae,Gelastocoris,oculatus,30.VII.1983,1983-07-30,1983,Hemiptera,destructive,2.272125885509337,7.592366128519796
+23U232,F1,CDFA_P8,NA,NA,NA,NA,9.9,1.53,0.36,Yes,NA,Hemiptera,Gelastocoridae,Gelastocoris,oculatus,26.III.1987,1987-03-26,1987,Hemiptera,destructive,2.2925347571405443,7.594381242551817
+23U233,G1,CDFA_P8,NA,NA,NA,NA,13.1,1.43,0.45,Yes,NA,Hemiptera,Gelastocoridae,Nerthra,martini,17.IV.2013,2013-04-17,2013,Hemiptera,destructive,2.5726122302071057,7.607381425639791
+23U234,H1,CDFA_P8,NA,NA,NA,NA,22.5,1.83,1,Yes,NA,Hemiptera,Gerridae,Aquarius,remigis,02.V.2010,2010-05-02,2010,Hemiptera,destructive,3.1135153092103742,7.605890001053122
+23U236,B2,CDFA_P8,NA,NA,NA,NA,19,1.54,0.38,Yes,NA,Hemiptera,Notonectidae,Notonecta,shooteri,26.III.1987,1987-03-26,1987,Hemiptera,destructive,2.9444389791664403,7.594381242551817
+23U244,B3,CDFA_P8,NA,NA,NA,NA,13.7,3.17,0.51,Yes,NA,Hemiptera,Corixidae,Cenocorixa,wileyae,01.VII.1987,1987-07-01,1987,Hemiptera,destructive,2.617395832834079,7.594381242551817
+23U254,D4,CDFA_P8,NA,NA,NA,NA,28.2,1.99,1.15,Yes,NA,Hemiptera,Reduviidae,Apiomerus,crassipes,14.V.2010,2010-05-14,2010,Hemiptera,destructive,3.339321977944068,7.605890001053122
+23U259,A5,CDFA_P8,NA,NA,NA,NA,6.5,1.72,0.29,Yes,NA,Hemiptera,Reduviidae,Sinea,complexa,08.III.1988,1988-03-08,1988,Hemiptera,destructive,1.8718021769015911,7.59488438721652
+23U271,E6,CDFA_P8,NA,NA,NA,NA,23.9,2.24,0.4,Yes,NA,Hemiptera,Reduviidae,Reduvius,personatus,22.VI.2017,2017-06-22,2017,Hemiptera,destructive,3.173878458937465,7.6093665379542115
+23U293,C7,CDFA_P8,NA,NA,NA,NA,10.4,1.74,0.83,Yes,NA,Hemiptera,Reduviidae,Triatoma,protracta,16.VII.1989,1989-07-16,1989,Hemiptera,destructive,2.341805806147327,7.5953872788539725
+23U304,F8,CDFA_P8,NA,NA,NA,NA,62.1,2.43,0.8,Yes,NA,Hemiptera,Anthocoridae,Coccivora,californica,19.VI.1981,1981-06-19,1981,Hemiptera,destructive,4.128745988939433,7.591357046698551
+23U311,E9,CDFA_P8,NA,NA,NA,NA,2.2,2.96,0.4,Yes,NA,Hemiptera,Cimicidae,Cimex,lectularius,12.III.2002,2002-03-12,2002,Hemiptera,destructive,0.7884573603642703,7.601901959875166
+23U312,F9,CDFA_P8,NA,NA,NA,NA,8.3,1.85,0.46,Yes,NA,Hemiptera,Cimicidae,Oeciacus,vicarius,18.IV.2011,2011-04-18,2011,Hemiptera,destructive,2.1162555148025524,7.606387389772652
+23U321,G10,CDFA_P8,NA,NA,NA,NA,10.7,1.78,0.23,Yes,NA,Hemiptera,Miridae,Closterotomus,norvegicus,04.IV.2017,2017-04-04,2017,Hemiptera,destructive,2.3702437414678603,7.6093665379542115
+23U329,G11,CDFA_P8,NA,NA,NA,NA,8.1,1.5,0.23,Yes,NA,Hemiptera,Miridae,Leptopterna,ferrugata,15.IV.2013,2013-04-15,2013,Hemiptera,destructive,2.0918640616783932,7.607381425639791
+23U340,A1,CDFA_P9,NA,NA,NA,NA,51.6,1.5,0.23,Yes,NA,Hemiptera,Tingidae,Corythaica,venusta,10.VI.1997,1997-06-10,1997,Hemiptera,destructive,3.9435216724875177,7.599401333415815
+23U341,B1,CDFA_P9,NA,NA,NA,NA,9.3,1.75,0.5,Yes,NA,Hemiptera,Tingidae,Corythucha,gossypii,03.VI.2006,2006-06-03,2006,Hemiptera,destructive,2.2300144001592104,7.603897968521881
+23U342,C1,CDFA_P9,NA,NA,NA,NA,50.7,1.8,0.39,Yes,NA,Hemiptera,Tingidae,Corythucha,morrilli,30.IX.2013,2013-09-30,2013,Hemiptera,destructive,3.9259259105971376,7.607381425639791
+23U343,D1,CDFA_P9,NA,NA,NA,NA,34.6,1.63,0.26,Yes,NA,Hemiptera,Tingidae,Corythucha,morrilli,14.VI.1985,1985-06-14,1985,Hemiptera,destructive,3.543853682063679,7.59337419312129
+23U344,E1,CDFA_P9,NA,NA,NA,NA,53.1,1.85,0.46,Yes,NA,Hemiptera,Tingidae,Corythucha,obliqua,12.VI.1998,1998-06-12,1998,Hemiptera,destructive,3.972176928247894,7.599901959208498
+23U345,F1,CDFA_P9,NA,NA,NA,NA,31,1.59,0.27,Yes,NA,Hemiptera,Tingidae,Corythucha,sphaeralceae,07.VIII.1996,1996-08-07,1996,Hemiptera,destructive,3.4339872044851463,7.59890045687141
+23U346,G1,CDFA_P9,NA,NA,NA,NA,6.8,1.62,0.31,Yes,NA,Hemiptera,Tingidae,Dictyla,labeculata,16.VI.1983,1983-06-16,1983,Hemiptera,destructive,1.916922612182061,7.592366128519796
+23U347,H1,CDFA_P9,NA,NA,NA,NA,24.8,1.59,0.27,Yes,NA,Hemiptera,Tingidae,Physatocheila,variegata ornata,20.VI.1983,1983-06-20,1983,Hemiptera,destructive,3.210843653170937,7.592366128519796
+23U591,H1,CDFA_P11,NA,NA,NA,NA,11.6,1.98,0.76,Yes,NA,Diptera,Tephritidae,Tomoplagia,cressoni,13.VI.2003,2003-06-13,2003,Diptera,non_destructive,2.451005098112319,7.602401335665818
+23U598,G2,CDFA_P11,NA,NA,NA,NA,48.6,2.1,1.41,Yes,NA,Diptera,Tephritidae,Trupanea,femoralis,07.VII.2022,2022-07-07,2022,Diptera,non_destructive,3.883623530906448,7.611842399580417
+23U605,F3,CDFA_P11,NA,NA,NA,NA,57,2.3,1.61,Yes,NA,Diptera,Tephritidae,Trupanea,nigricornis,8.V.2019,2019-05-08,2019,Diptera,non_destructive,4.04305126783455,7.610357618312838
+23U612,E4,CDFA_P11,NA,NA,NA,NA,8.3,2.09,0.16,Yes,NA,Diptera,Tephritidae,Trupanea,signata,8.X.1988,1988-10-08,1988,Diptera,non_destructive,2.1162555148025524,7.59488438721652
+23U619,D5,CDFA_P11,NA,NA,NA,NA,25.8,2.09,0.9,Yes,NA,Diptera,Tephritidae,Trupanea,sp.,2.IV.1993,1993-04-02,1993,Diptera,non_destructive,3.250374491927572,7.597396320212795
+23U626,C6,CDFA_P11,NA,NA,NA,NA,20.3,2.26,1.11,Yes,NA,Diptera,Tephritidae,Trupanea,sp.,1.V.2008,2008-05-01,2008,Diptera,non_destructive,3.0106208860477417,7.60489448081162
+23U633,B7,CDFA_P11,NA,NA,NA,NA,11.5,2.42,0.53,Yes,NA,Diptera,Tephritidae,Valentibulla,californica,19.V.1981,1981-05-19,1981,Diptera,non_destructive,2.4423470353692043,7.591357046698551
+23U641,A8,CDFA_P11,NA,NA,NA,NA,107.9,2.14,1.82,Yes,NA,Diptera,Tephritidae,Euleia,fratria,18.V.1987,1987-05-18,1987,Diptera,non_destructive,4.681204872264089,7.594381242551817
+23U650,B9,CDFA_P11,NA,NA,NA,NA,8.2,2.36,0.58,Yes,NA,Diptera,Tephritidae,Rhagoletis,berberis,25.VII.1984,1984-07-25,1984,Diptera,non_destructive,2.104134154270207,7.592870287844818
+23U659,C10,CDFA_P11,NA,NA,NA,NA,9.3,1.99,0.6,Yes,NA,Diptera,Tephritidae,Rhagoletis,zephyria,4.IX.1987,1987-09-04,1987,Diptera,non_destructive,2.2300144001592104,7.594381242551817
+23U668,D11,CDFA_P11,NA,NA,NA,NA,2.4,4.84,0.11,Yes,NA,Diptera,Agromyzidae,Liriomyza,septentrionalis,15.VI.2003,2003-06-15,2003,Diptera,non_destructive,0.8754687373538999,7.602401335665818
+23U677,E12,CDFA_P11,NA,NA,NA,NA,24.9,2.14,1.07,Yes,NA,Diptera,Anthomyzidae,Anthomyza,concolor,4.VI.2002,2002-06-04,2002,Diptera,non_destructive,3.214867803470662,7.601901959875166
+23U685,E1,CDFA_P12,NA,NA,NA,NA,1.7,4.09,0.15,Yes,NA,Coleoptera,Carabidae,Dicheirus,brunneus,01.V.1981,1981-05-01,1981,Coleoptera,destructive,0.5306282510621704,7.591357046698551
+23U704,G2,CDFA_P12,NA,NA,NA,NA,5.4,1.79,0.31,Yes,NA,Coleoptera,Carabidae,Agonum,suturale,26.III.1987,1987-03-26,1987,Coleoptera,destructive,1.6863989535702288,7.594381242551817
+23U709,C3,CDFA_P12,NA,NA,NA,NA,11.8,1.64,0.37,Yes,NA,Coleoptera,Carabidae,Tetragonoderus,pallidus,14.VIII.1983,1983-08-14,1983,Coleoptera,destructive,2.468099531471619,7.592366128519796
+23U716,B4,CDFA_P12,NA,NA,NA,NA,9.4,1.63,0.49,Yes,NA,Coleoptera,Carabidae,Galerita,sp.,19.IX.1986,1986-09-19,1986,Coleoptera,destructive,2.2407096892759584,7.593877844605118
+23U724,B5,CDFA_P12,NA,NA,NA,NA,4,1.7,0.29,Yes,NA,Coleoptera,Carabidae,Cicindela,oregona,02.V.2010,2010-05-02,2010,Coleoptera,destructive,1.3862943611198906,7.605890001053122
+23U734,D6,CDFA_P12,NA,NA,NA,NA,0.6,7.62,0.51,Yes,NA,Coleoptera,Carabidae,Cicindela,hemorrhagica,25.V.2004,2004-05-25,2004,Coleoptera,destructive,-0.5108256237659907,7.602900462204755
+23U745,F7,CDFA_P12,NA,NA,NA,NA,8.7,1.62,0.69,Yes,NA,Coleoptera,Dytiscidae,Hygrotus,masculinus,22.VI.1983,1983-06-22,1983,Coleoptera,destructive,2.163323025660538,7.592366128519796
+23U759,C9,CDFA_P12,NA,NA,NA,NA,8,1.63,0.47,Yes,NA,Coleoptera,Dytiscidae,Agabus,lugens,15.IX.1988,1988-09-15,1988,Coleoptera,destructive,2.0794415416798357,7.59488438721652
+23U772,A10,CDFA_P12,NA,NA,NA,NA,4.3,8.21,0.4,Yes,NA,Coleoptera,Dytiscidae,Agabus,seriatus intersectus,11.VI.1988,1988-06-11,1988,Coleoptera,destructive,1.4586150226995167,7.59488438721652
+23U796,F11,CDFA_P12,NA,NA,NA,NA,38,1.69,0.5,Yes,NA,Coleoptera,Hydrophilidae,Hydrophilus,sp.,18.III.1991,1991-03-18,1991,Coleoptera,destructive,3.6375861597263857,7.596392304064196
+23U802,D12,CDFA_P12,NA,NA,NA,NA,5.3,1.76,0.46,Yes,NA,Coleoptera,Agyrtidae,Pteroloma,sp.,08.VIII.1996,1996-08-08,1996,Coleoptera,destructive,1.667706820558076,7.59890045687141
+23U835,A1,CDFA_P13,NA,NA,NA,NA,401.2,2.41,0.43,Yes,NA,Coleoptera,Carabidae,Bradycellus,sp.,01.VI.1980,1980-06-01,1980,Coleoptera,non_destructive,5.994460056087781,7.590852123688581
+23U848,E2,CDFA_P13,NA,NA,NA,NA,45.3,2.22,0.51,Yes,NA,Coleoptera,Haliplidae,Peltodytes,simplex,11.IX.1993,1993-09-11,1993,Coleoptera,non_destructive,3.813307032488989,7.597396320212795
+23U857,F3,CDFA_P13,NA,NA,NA,NA,60.9,3.49,0.55,Yes,NA,Coleoptera,Hydrophilidae,Anacaena,sp.,01.VI.1980,1980-06-01,1980,Coleoptera,non_destructive,4.109233174715851,7.590852123688581
+23U861,B4,CDFA_P13,NA,NA,NA,NA,45.4,3.39,0.45,Yes,NA,Coleoptera,Hydrophilidae,Cercyon,quisquilius,30.V.1981,1981-05-30,1981,Coleoptera,non_destructive,3.8155121050473024,7.591357046698551
+23U870,C5,CDFA_P13,NA,NA,NA,NA,10.1,1.98,0.4,Yes,NA,Coleoptera,Leiodidae,Leiodes,sp.,22.VI.1994,1994-06-22,1994,Coleoptera,non_destructive,2.3125354238472138,7.597897950521784
+23U890,D7,CDFA_P13,NA,NA,NA,NA,51.9,2.48,0.49,Yes,NA,Coleoptera,Leiodidae,Catops,basilaris,15.X.1984,1984-10-15,1984,Coleoptera,non_destructive,3.949318790171843,7.592870287844818
+23U902,H8,CDFA_P13,NA,NA,NA,NA,46.2,2.31,0.96,Yes,NA,Coleoptera,Staphylinidae,Eutheia,sp.,23.II.1984,1984-02-23,1984,Coleoptera,non_destructive,3.832979798087693,7.592870287844818
+23U904,B9,CDFA_P13,NA,NA,NA,NA,13.8,2.35,0.43,Yes,NA,Coleoptera,Staphylinidae,Catalinus,sp.,15.II.1983,1983-02-15,1983,Coleoptera,non_destructive,2.624668592163159,7.592366128519796
+23U916,F10,CDFA_P13,NA,NA,NA,NA,44.1,1.84,1.09,Yes,NA,Coleoptera,Staphylinidae,Pseudopsis,montoraria,15.XI.1981,1981-11-15,1981,Coleoptera,non_destructive,3.7864597824528,7.591357046698551
+23U919,A11,CDFA_P13,NA,NA,NA,NA,22.9,1.77,0.82,Yes,NA,Coleoptera,Staphylinidae,Proteinus,sp.,28.II.1985,1985-02-28,1985,Coleoptera,non_destructive,3.131136910560194,7.59337419312129
+23U930,C12,CDFA_P13,NA,NA,NA,NA,98.3,2.63,0.39,Yes,NA,Coleoptera,Staphylinidae,Phyllodrepa,sp.,20.XII.1982,1982-12-20,1982,Coleoptera,non_destructive,4.5880240271531205,7.591861714889934
+23U956,C1,CDFA_P14,NA,NA,NA,NA,20.1,2.07,1.24,Yes,NA,Diptera,Canacidae,Pelomyia,coronata,20.X.1988,1988-10-20,1988,Diptera,non_destructive,3.0007198150650303,7.59488438721652
+23U979,D2,CDFA_P14,NA,NA,NA,NA,15.6,2.1,1.28,Yes,NA,Diptera,Drosophilidae,Drosophila,azteca,8.XI.2010,2010-11-08,2010,Diptera,non_destructive,2.747270914255491,7.605890001053122
+23U989,A3,CDFA_P14,NA,NA,NA,NA,129.7,2.15,2.14,Yes,NA,Diptera,Drosophilidae,Drosophila,hydei,13.X.1987,1987-10-13,1987,Diptera,non_destructive,4.865224091322398,7.594381242551817
+24V082,B2,CDFA_P15,NA,NA,NA,NA,27,1.95,0.86,Yes,NA,Coleoptera,Staphylinidae,Orobanus,sp.,14.IV.1988,1988-04-14,1988,Coleoptera,non_destructive,3.295836866004329,7.59488438721652
+24V097,H3,CDFA_P15,NA,NA,NA,NA,25.5,2.32,0.64,Yes,NA,Coleoptera,Staphylinidae,Linohesperus,emarginatus,28.IV.1982,1982-04-28,1982,Coleoptera,non_destructive,3.2386784521643803,7.591861714889934
+24V100,C4,CDFA_P15,NA,NA,NA,NA,185.3,2.16,1.81,Yes,NA,Coleoptera,Staphylinidae,Linohesperus,hamatus,13.III.1981,1981-03-13,1981,Coleoptera,non_destructive,5.221976133291314,7.591357046698551
+24V114,A6,CDFA_P15,NA,NA,NA,NA,13.9,2.44,0.54,Yes,NA,Coleoptera,Histeridae,Euspilotus,scissus,16.V.2023,2023-05-16,2023,Coleoptera,non_destructive,2.631888840136646,7.612336837167746
+24V122,A7,CDFA_P15,NA,NA,NA,NA,0.3,-0.39,0.03,Yes,NA,Coleoptera,Histeridae,Stictostix,californica,08.V.2020,2020-05-08,2020,Coleoptera,non_destructive,-1.203972804325936,7.61085279039525
+24V131,B8,CDFA_P15,NA,NA,NA,NA,22.5,2.07,0.59,Yes,NA,Coleoptera,Staphylinidae,Heterothops,conformis,28.IV.1984,1984-04-28,1984,Coleoptera,non_destructive,3.1135153092103742,7.592870287844818
+24V144,G9,CDFA_P15,NA,NA,NA,NA,59,2.03,1.38,Yes,NA,Coleoptera,Staphylinidae,Tachinus,agilis,24.II.1981,1981-02-24,1981,Coleoptera,non_destructive,4.07753744390572,7.591357046698551
+24V149,D10,CDFA_P15,NA,NA,NA,NA,9.2,1.91,0.41,Yes,NA,Coleoptera,Staphylinidae,Tachyporus,californicus,07.VIII.1981,1981-08-07,1981,Coleoptera,non_destructive,2.2192034840549946,7.591357046698551
+24V158,E11,CDFA_P15,NA,NA,NA,NA,70,2.05,1.29,Yes,NA,Coleoptera,Staphylinidae,Ichnosoma,californicum,13.V.1981,1981-05-13,1981,Coleoptera,non_destructive,4.248495242049359,7.591357046698551
+24V231,B2,CDFA_P16,NA,NA,NA,NA,9.3,2.17,0.2,Yes,NA,Diptera,Tephritidae,Tephritis,footei,10.X.2023,2023-10-10,2023,Diptera,non_destructive,2.2300144001592104,7.612336837167746
+24V247,C3,CDFA_P16,NA,NA,NA,NA,1.9,4.82,0.1,Yes,NA,Coleoptera,Curculionidae,Schizomicrus,caecus,10.XI.2023,2023-11-10,2023,Coleoptera,non_destructive,0.6418538861723947,7.612336837167746
+24V255,A4,CDFA_P16,NA,NA,NA,NA,41.1,2.17,3.67,Yes,NA,Coleoptera,Tenebrionidae,Eulabis,bicarinata,14.XII.2023,2023-12-14,2023,Coleoptera,non_destructive,3.716008121502189,7.612336837167746
+24V264,B1,CDFA_P17,NA,NA,NA,NA,16.2,1.41,0.35,Yes,NA,Coleoptera,Silphidae,Thanatophilus,lapponicus,10.VII.1985,1985-07-10,1985,Coleoptera,destructive,2.785011242238338,7.59337419312129
+24V276,F2,CDFA_P17,NA,NA,NA,NA,3.5,1.56,0.54,Yes,NA,Coleoptera,Staphylinidae,Philonthus,alumnus,30.VII.1983,1983-07-30,1983,Coleoptera,destructive,1.252762968495368,7.592366128519796
+24V286,H3,CDFA_P17,NA,NA,NA,NA,2.1,2.1,0.37,Yes,NA,Coleoptera,Staphylinidae,Philonthus,morosus,04.VII.1981,1981-07-04,1981,Coleoptera,destructive,0.7419373447293773,7.591357046698551
+24V290,D4,CDFA_P17,NA,NA,NA,NA,14.9,1.92,1.2,Yes,NA,Coleoptera,Staphylinidae,Cafius,canescens,27.V.1981,1981-05-27,1981,Coleoptera,destructive,2.7013612129514133,7.591357046698551
+24V295,A5,CDFA_P17,NA,NA,NA,NA,7.2,1.49,0.5,Yes,NA,Coleoptera,Staphylinidae,Quedius,explanatus,15.XII.1981,1981-12-15,1981,Coleoptera,destructive,1.9740810260220096,7.591357046698551
+24V307,E6,CDFA_P17,NA,NA,NA,NA,5.5,2.04,0.39,Yes,NA,Coleoptera,Histeridae,Hololepta,vicina,09.VII.2018,2018-07-09,2018,Coleoptera,destructive,1.7047480922384253,7.609862200913554
+24V313,B7,CDFA_P17,NA,NA,NA,NA,3.1,3.41,0.57,Yes,NA,Diptera,Calliphoridae,Chrysomya,megacephala,08.VIII.1988,1988-08-08,1988,Diptera,destructive,1.1314021114911006,7.59488438721652
+24V319,F5,CDFA_P16,NA,NA,NA,NA,165.1,2,1.97,Yes,NA,Diptera,Tachinidae,Ametadoria,harrisinae,26.VIII.1983,1983-08-26,1983,Diptera,non_destructive,5.1065513509260825,7.592366128519796
+24V329,E6,CDFA_P16,NA,NA,NA,NA,9.7,2.65,-0.35,Yes,NA,Diptera,Tachinidae,Siphona,NA,24.VII.2009,2009-07-24,2009,Diptera,non_destructive,2.272125885509337,7.605392364814935
+24V338,D7,CDFA_P16,NA,NA,NA,NA,38,1.98,-5.08,Yes,NA,Diptera,Tachinidae,Xanthomelanodes,NA,9.VII.2008,2008-07-09,2008,Diptera,non_destructive,3.6375861597263857,7.60489448081162
+24V346,C8,CDFA_P16,NA,NA,NA,NA,9.4,1.46,-0.99,Yes,NA,Diptera,Tachinidae,Aplomya,NA,28.VI.1984,1984-06-28,1984,Diptera,non_destructive,2.2407096892759584,7.592870287844818
+24V353,B9,CDFA_P16,NA,NA,NA,NA,0.8,0.42,-0.04,Yes,NA,Diptera,Tachinidae,Triarthria,setipennis,29.VI.1979,1979-06-29,1979,Diptera,non_destructive,-0.2231435513142097,7.590346945602565
+24V361,B10,CDFA_P16,NA,NA,NA,NA,0.7,0.16,0.07,Yes,NA,Diptera,Sarcophagidae,Taxigramma,heterenoura,14.VIII.1983,1983-08-14,1983,Diptera,non_destructive,-0.35667494393873245,7.592366128519796
+24V370,C11,CDFA_P16,NA,NA,NA,NA,29.8,1.75,-68.98,Yes,NA,Diptera,Tachinidae,Ptilopdexia,NA,30.V.2009,2009-05-30,2009,Diptera,non_destructive,3.3945083935113587,7.605392364814935
+24V388,H8,CDFA_P17,NA,NA,NA,NA,35.4,1.95,1.54,Yes,NA,Coleoptera,Glaphyridae,Lichnanthe,apina,17.VI.1984,1984-06-17,1984,Coleoptera,destructive,3.5667118201397288,7.592870287844818
+24V391,C9,CDFA_P17,NA,NA,NA,NA,16.3,1.44,0.59,Yes,NA,Coleoptera,Diphyllostomatidae,Diphyllostoma,fimbriata,28.VII.1984,1984-07-28,1984,Coleoptera,destructive,2.791165107812717,7.592870287844818
+24V401,E10,CDFA_P17,NA,NA,NA,NA,3.2,1.8,0.6,Yes,NA,Coleoptera,Scarabaeidae,Aphodius,fimetarius,07.VI.2023,2023-06-07,2023,Coleoptera,destructive,1.1631508098056809,7.612336837167746
+24V406,A11,CDFA_P17,NA,NA,NA,NA,4.3,1.77,0.62,Yes,NA,Coleoptera,Scarabaeidae,Aphodius,lividus,15.IX.1997,1997-09-15,1997,Coleoptera,destructive,1.4586150226995167,7.599401333415815
+24V435,A1,CDFA_P19,NA,NA,NA,NA,4.4,1.61,0.6,Yes,NA,Hymenoptera,Chyphotidae,Typhoctes,peculiaris,31.VII.2016,2016-07-31,2016,Hymenoptera,destructive,1.4816045409242156,7.60887062919126
+24V444,B2,CDFA_P19,NA,NA,NA,NA,6.2,1.76,0.26,Yes,NA,Hymenoptera,Scoliidae,Triscolia,ardens,03.VII.2016,2016-07-03,2016,Hymenoptera,destructive,1.824549292051046,7.60887062919126
+24V453,C3,CDFA_P19,NA,NA,NA,NA,1.2,68.07,0.73,Yes,NA,Neuroptera,Myrmeleontidae,Purenleon,inscriptus,27.V.2017,2017-05-27,2017,Neuroptera,destructive,0.1823215567939546,7.6093665379542115
+24V462,D4,CDFA_P19,NA,NA,NA,NA,2.7,2.15,1.12,Yes,NA,Neuroptera,Myrmeleontidae,Brachynemurus,ferox,03.VII.2016,2016-07-03,2016,Neuroptera,destructive,0.9932517730102834,7.60887062919126
+24V471,E5,CDFA_P19,NA,NA,NA,NA,5.5,2.08,0.67,Yes,NA,Neuroptera,Myrmeleontidae,Scotoleon,eiseni,02.VIII.2021,2021-08-02,2021,Neuroptera,destructive,1.7047480922384253,7.611347717403621
+24V487,E7,CDFA_P19,NA,NA,NA,NA,50.1,2.16,1.73,Yes,NA,Coleoptera,Scarabaeidae,Parathyce,harfordi,18.VII.1991,1991-07-18,1991,Coleoptera,destructive,3.914021008090819,7.596392304064196
+24V494,D8,CDFA_P19,NA,NA,NA,NA,13.6,1.68,0.55,Yes,NA,Coleoptera,Scarabaeidae,Coenonycha,fusca,27.II.1986,1986-02-27,1986,Coleoptera,destructive,2.6100697927420065,7.593877844605118
+24V501,C9,CDFA_P19,NA,NA,NA,NA,10.7,2.03,0.98,Yes,NA,Coleoptera,Scarabaeidae,Dichelonyx,pusilla,24.VI.2004,2004-06-24,2004,Coleoptera,destructive,2.3702437414678603,7.602900462204755
+24V508,B10,CDFA_P19,NA,NA,NA,NA,2,2.31,4,Yes,NA,Coleoptera,Scarabaeidae,Leptohoplia,testaceipennis,16.IV.1991,1991-04-16,1991,Coleoptera,destructive,0.6931471805599453,7.596392304064196
+24V516,B11,CDFA_P19,NA,NA,NA,NA,4,1.59,0.37,Yes,NA,Coleoptera,Scarabaeidae,Cremastocheilus,pilosicollis maritimus,25.X.1999,1999-10-25,1999,Coleoptera,destructive,1.3862943611198906,7.6004023345004
+24V525,C12,CDFA_P19,NA,NA,NA,NA,15.2,1.64,0.91,Yes,NA,Coleoptera,Schizopodidae,Glyptoscelimorpha,juniperae,17.VI.1992,1992-06-17,1992,Coleoptera,destructive,2.7212954278522306,7.596894438144544
+24V535,E1,CDFA_P18,NA,NA,NA,NA,25.4,2.01,0.55,Yes,NA,Hymenoptera,Chyphotidae,Chyphotes,cf. rugosus,02.VIII.2022,2022-08-02,2022,Hymenoptera,non_destructive,3.2347491740244907,7.611842399580417
+24V544,F2,CDFA_P18,NA,NA,NA,NA,6.3,3.11,0.23,Yes,NA,Coleoptera,Staphylinidae,Reichenbachia,clamer,01.V.2012,2012-05-01,2012,Coleoptera,non_destructive,1.840549633397487,7.60688453121963
+24V547,A3,CDFA_P18,NA,NA,NA,NA,7.2,2.31,0.38,Yes,NA,Coleoptera,Staphylinidae,Pselaptrichus,cavatus,04.IX.2021,2021-09-04,2021,Coleoptera,non_destructive,1.9740810260220096,7.611347717403621
+24V557,C4,CDFA_P18,NA,NA,NA,NA,3,3.22,0.08,Yes,NA,Coleoptera,Staphylinidae,Actiastes,desertorum,29.XI.1986,1986-11-29,1986,Coleoptera,non_destructive,1.0986122886681098,7.593877844605118
+24V566,D5,CDFA_P18,NA,NA,NA,NA,10.7,2.61,0.21,Yes,NA,Coleoptera,Staphylinidae,Megarafonus,ventralis,25.XII.2021,2021-12-25,2021,Coleoptera,non_destructive,2.3702437414678603,7.611347717403621
+24V576,F6,CDFA_P18,NA,NA,NA,NA,13.3,2.4,0.41,Yes,NA,Coleoptera,Staphylinidae,Oropus,sinifundus,18.VI.2021,2021-06-18,2021,Coleoptera,non_destructive,2.5877640352277083,7.611347717403621
+24V589,F1,CDFA_P20,NA,NA,NA,NA,17.2,2,0.48,Yes,NA,Diptera,Piophilidae,Piophila,casei,25.IV.2009,2009-04-25,2009,Diptera,non_destructive,2.8449093838194073,7.605392364814935
+24V599,H2,CDFA_P20,NA,NA,NA,NA,150,1.95,1.01,Yes,NA,Diptera,Ulidiidae,Pseudotephritina,inaequalis,1.VI.2021,2021-06-01,2021,Diptera,non_destructive,5.0106352940962555,7.611347717403621
+24V602,H7,CDFA_P18,NA,NA,NA,NA,5.5,2.92,0.21,Yes,NA,Coleoptera,Staphylinidae,Rhexidius,impensus,17.I.2022,2022-01-17,2022,Coleoptera,non_destructive,1.7047480922384253,7.611842399580417
+24V606,A3,CDFA_P20,NA,NA,NA,NA,48,2.09,1.2,Yes,NA,Diptera,Scenopinidae,Belosta,NA,10.VII.2008,2008-07-10,2008,Diptera,non_destructive,3.871201010907891,7.60489448081162
+24V612,H8,CDFA_P18,NA,NA,NA,NA,2.6,11.14,0.1,Yes,NA,Coleoptera,Glaresidae,Glaresis,montenegro,14.IV.1991,1991-04-14,1991,Coleoptera,non_destructive,0.9555114450274363,7.596392304064196
+24V633,C10,CDFA_P18,NA,NA,NA,NA,5.8,7.74,0.15,Yes,NA,Coleoptera,Scarabaeidae,Pleurophorus,caesus,01.VI.1987,1987-06-01,1987,Coleoptera,non_destructive,1.7578579175523736,7.594381242551817
+24V637,F4,CDFA_P20,NA,NA,NA,NA,34,1.99,0.74,Yes,NA,Diptera,Ulidiidae,Pseudotephritina,inaequalis,11.IV.2020,2020-04-11,2020,Diptera,non_destructive,3.5263605246161616,7.61085279039525
+24V646,C5,CDFA_P20,NA,NA,NA,NA,8.2,2.41,0.44,Yes,NA,Diptera,Scenopinidae,Scenopinus,NA,4.VI.2003,2003-06-04,2003,Diptera,non_destructive,2.104134154270207,7.602401335665818
+24V653,G11,CDFA_P18,NA,NA,NA,NA,514.9,1.67,1.47,Yes,NA,Coleoptera,Scirtidae,Herthania,concinna,12.IV.2007,2007-04-12,2007,Coleoptera,non_destructive,6.243972707052095,7.604396348796338
+24V667,B6,CDFA_P20,NA,NA,NA,NA,5.1,2.49,0.26,Yes,NA,Diptera,Tephritidae,Tephritis,araneosa (dark fem coast),18.X.1992,1992-10-18,1992,Diptera,non_destructive,1.62924053973028,7.596894438144544
+24V674,A7,CDFA_P20,NA,NA,NA,NA,8.5,2.81,0.45,Yes,NA,Diptera,Tephritidae,Tephritis,araneosa (dark fem coast),17.VIII.1983,1983-08-17,1983,Diptera,non_destructive,2.1400661634962708,7.592366128519796
+24V685,D8,CDFA_P20,NA,NA,NA,NA,59.4,2.17,1.5,Yes,NA,Diptera,Therevidae,Phycus,frommeri,5.VI.2002,2002-06-05,2002,Diptera,non_destructive,4.084294226368599,7.601901959875166
+24V697,H9,CDFA_P20,NA,NA,NA,NA,240,2.19,1.92,Yes,NA,Diptera,Sciomyzidae,Dictya,montana,19.IV.2005,2005-04-19,2005,Diptera,non_destructive,5.480638923341991,7.60339933974067
+24V703,F10,CDFA_P20,NA,NA,NA,NA,47,1.96,0.9,Yes,NA,Diptera,Sciomyzidae,Sepedon,bifida,25.IV.2002,2002-04-25,2002,Diptera,non_destructive,3.8501476017100584,7.601901959875166
+24V709,D11,CDFA_P20,NA,NA,NA,NA,21.2,2.29,0.68,Yes,NA,Diptera,Apsilocephalidae,Apsilocephala,NA,13.IV.2016,2016-04-13,2016,Diptera,non_destructive,3.054001181677967,7.60887062919126
+24V727,H1,CDFA_P21,NA,NA,NA,NA,4.3,1.2,0.33,Yes,NA,Diptera,Therevidae,Thereva,flavipilosa,10.X.1986,1986-10-10,1986,Diptera,destructive,1.4586150226995167,7.593877844605118
+24V734,G2,CDFA_P21,NA,NA,NA,NA,4.1,1.6,0.65,Yes,NA,Diptera,Therevidae,Acrosathe,vialis,2.VII.2002,2002-07-02,2002,Diptera,destructive,1.410986973710262,7.601901959875166
+24V748,E4,CDFA_P21,NA,NA,NA,NA,3.3,1.51,0.59,Yes,NA,Diptera,Therevidae,Arenigena,marcida,30.V.2008,2008-05-30,2008,Diptera,destructive,1.1939224684724346,7.60489448081162
+24V755,D5,CDFA_P21,NA,NA,NA,NA,37.6,1.96,1.58,Yes,NA,Diptera,Tachinidae,Deopalpus,NA,3.IX.2006,2006-09-03,2006,Diptera,destructive,3.6270040503958487,7.603897968521881
+24V764,C6,CDFA_P21,NA,NA,NA,NA,19.5,1.97,1.54,Yes,NA,Diptera,Tachinidae,Protodejeania,NA,17.VI.1997,1997-06-17,1997,Diptera,destructive,2.970414465569701,7.599401333415815
+24V776,C7,CDFA_P21,NA,NA,NA,NA,23.8,1.89,1.44,Yes,NA,Diptera,Tachinidae,Tachina,NA,2.VII.2002,2002-07-02,2002,Diptera,destructive,3.169685580677429,7.601901959875166
+24V784,C8,CDFA_P21,NA,NA,NA,NA,15.9,1.86,0.91,Yes,NA,Diptera,Tachinidae,Peleteria,NA,3.IX.2006,2006-09-03,2006,Diptera,destructive,2.766319109226186,7.603897968521881
+24V794,D9,CDFA_P21,NA,NA,NA,NA,5,1.78,1.32,Yes,NA,Diptera,Conopidae,Myopa,curticornis,7.VI.2003,2003-06-07,2003,Diptera,destructive,1.6094379124341005,7.602401335665818
+24V803,E10,CDFA_P21,NA,NA,NA,NA,6.2,1.66,1,Yes,NA,Diptera,Therevidae,Thereva,NA,1.X.2005,2005-10-01,2005,Diptera,destructive,1.824549292051046,7.60339933974067
+24V812,F11,CDFA_P21,NA,NA,NA,NA,6.9,1.64,0.74,Yes,NA,Diptera,Mydidae,Pseudonomoneura,nelsoni,30.VIII.1982,1982-08-30,1982,Diptera,destructive,1.9315214116032136,7.591861714889934
+24V820,E12,CDFA_P21,NA,NA,NA,NA,6.5,1.69,1.03,Yes,NA,Diptera,Mydidae,Pseudonomoneura,tinkhami,3.VIII.1980,1980-08-03,1980,Diptera,destructive,1.8718021769015911,7.590852123688581
+24V822,A1,CDFA_P22,NA,NA,NA,NA,10.9,1.54,0.32,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,acuta,18.VII.1995,1995-07-18,1995,Coleoptera,destructive,2.388762789235098,7.598399329323964
+24V831,B2,CDFA_P22,NA,NA,NA,NA,12.8,1.36,0.41,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,constrictinotum,01.VII.1989,1989-07-01,1989,Coleoptera,destructive,2.549445170925571,7.5953872788539725
+24V840,C3,CDFA_P22,NA,NA,NA,NA,2.8,1.52,0.33,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,inopinata,23.V.1982,1982-05-23,1982,Coleoptera,destructive,1.029619417181158,7.591861714889934
+24V849,D4,CDFA_P22,NA,NA,NA,NA,4.3,1.32,0.18,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,perlanosa,25.V.1992,1992-05-25,1992,Coleoptera,destructive,1.4586150226995167,7.596894438144544
+24V858,E5,CDFA_P22,NA,NA,NA,NA,7.9,1.42,0.27,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,pullata,05.VI.1988,1988-06-05,1988,Coleoptera,destructive,2.066862759472976,7.59488438721652
+24V867,F6,CDFA_P22,NA,NA,NA,NA,1.8,3.94,0.53,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,vandykei,15.VIII.2006,2006-08-15,2006,Coleoptera,destructive,0.5877866649021191,7.603897968521881
+24V876,G7,CDFA_P22,NA,NA,NA,NA,9.8,1.77,0.8,Yes,NA,Coleoptera,Buprestidae,Polycesta,flavomaculata,28.VI.1993,1993-06-28,1993,Coleoptera,destructive,2.2823823856765264,7.597396320212795
+24V885,H8,CDFA_P22,NA,NA,NA,NA,13.5,1.55,0.51,Yes,NA,Coleoptera,Buprestidae,Dicerca,tenebrosa,12.VII.2006,2006-07-12,2006,Coleoptera,destructive,2.6026896854443837,7.603897968521881
+24V886,A9,CDFA_P22,NA,NA,NA,NA,13.2,1.31,0.47,Yes,NA,Coleoptera,Buprestidae,Gyascutus,allenrolfeae,10.VII.1982,1982-07-10,1982,Coleoptera,destructive,2.580216829592325,7.591861714889934
+24V904,C11,CDFA_P22,NA,NA,NA,NA,23.2,1.75,0.67,Yes,NA,Coleoptera,Buprestidae,Buprestis,adjecta,12.VII.2006,2006-07-12,2006,Coleoptera,destructive,3.1441522786722644,7.603897968521881
+24V913,D12,CDFA_P22,NA,NA,NA,NA,24.5,1.7,0.95,Yes,NA,Coleoptera,Buprestidae,Buprestis,viridisuturalis,24.VI.2004,2004-06-24,2004,Coleoptera,destructive,3.1986731175506815,7.602900462204755
+24V917,A1,CDFA_P23,NA,NA,NA,NA,21.4,1.28,0.34,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,bivulnera,14.VII.1982,1982-07-14,1982,Coleoptera,non_destructive,3.0633909220278057,7.591861714889934
+24V926,B2,CDFA_P23,NA,NA,NA,NA,197.3,1.82,1.72,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,inyoensis,04.IV.2000,2000-04-04,2000,Coleoptera,non_destructive,5.2847254130285695,7.600902459542082
+24V935,C3,CDFA_P23,NA,NA,NA,NA,51.8,1.17,0.37,Yes,NA,Coleoptera,Buprestidae,Acmaeodera,quadrivittata,05.VII.1990,1990-07-05,1990,Coleoptera,non_destructive,3.9473901492654377,7.595889917718538
+24V944,D4,CDFA_P23,NA,NA,NA,NA,18.8,1.3,0.17,Yes,NA,Coleoptera,Buprestidae,Acmaeoderoides,distinctus,03.VII.1982,1982-07-03,1982,Coleoptera,non_destructive,2.933856869835904,7.591861714889934
+24V953,E5,CDFA_P23,NA,NA,NA,NA,103.3,1.67,0.79,Yes,NA,Coleoptera,Buprestidae,Acmaeoderopsis,westcotti,03.VII.2003,2003-07-03,2003,Coleoptera,non_destructive,4.637637376125593,7.602401335665818
+24V962,F6,CDFA_P23,NA,NA,NA,NA,45.5,1.6,0.57,Yes,NA,Coleoptera,Buprestidae,Anthaxia,caseyi caseyi,08.VII.2005,2005-07-08,2005,Coleoptera,non_destructive,3.817712325956905,7.60339933974067
+24V971,G7,CDFA_P23,NA,NA,NA,NA,123.7,1.72,0.83,Yes,NA,Coleoptera,Buprestidae,Chrysobothris,debilis,18.IV.2004,2004-04-18,2004,Coleoptera,non_destructive,4.8178592793984425,7.602900462204755
+24V980,H8,CDFA_P23,NA,NA,NA,NA,13.5,1.49,0.44,Yes,NA,Coleoptera,Buprestidae,Chrysobothris,purpureoplagiata,09.VII.2002,2002-07-09,2002,Coleoptera,non_destructive,2.6026896854443837,7.601901959875166
+24V987,G9,CDFA_P23,NA,NA,NA,NA,25.7,1.23,0.34,Yes,NA,Coleoptera,Buprestidae,Agrilus,burkei,23.VII.2008,2008-07-23,2008,Coleoptera,non_destructive,3.246490991901174,7.60489448081162
+24V994,F10,CDFA_P23,NA,NA,NA,NA,145,1.95,1.41,Yes,NA,Coleoptera,Buprestidae,Agrilus,quadriguttatus fulminans,28.VI.2002,2002-06-28,2002,Coleoptera,non_destructive,4.976733742420574,7.601901959875166
+24W002,E11,CDFA_P23,NA,NA,NA,NA,17.2,2.08,0.3,Yes,NA,Coleoptera,Staphylinidae,Habrolinus,andrewsi,01.II.1981,1981-02-01,1981,Coleoptera,non_destructive,2.8449093838194073,7.591357046698551
+24W009,D12,CDFA_P23,NA,NA,NA,NA,21,2.53,0.38,Yes,NA,Coleoptera,Elmidae,Optioservus,divergens,04.IX.1989,1989-09-04,1989,Coleoptera,non_destructive,3.044522437723423,7.5953872788539725
+24W087,A1,CDFA_P25,NA,NA,NA,NA,45.2,1.85,1.06,Yes,NA,Diptera,Apsilocephalidae,Apsilocephala,NA,3.VI.2014,2014-06-03,2014,Diptera,non_destructive,3.8110970868381857,7.607878073278507
+24W134,C3,CDFA_P25,NA,NA,NA,NA,1.5,0.46,-0.17,Yes,NA,Diptera,Dolichopodidae,Gymnopternus,NA,5.VII.1985,1985-07-05,1985,Diptera,non_destructive,0.4054651081081644,7.59337419312129
+24W145,D4,CDFA_P25,NA,NA,NA,NA,42.4,1.8,1.37,Yes,NA,Diptera,Empididae,Empis,NA,3.V.1984,1984-05-03,1984,Diptera,non_destructive,3.747148362237912,7.592870287844818
+24W159,E5,CDFA_P25,NA,NA,NA,NA,17.9,1.68,0.64,Yes,NA,Diptera,Lonchopteridae,NA,NA,4.VI.2002,2002-06-04,2002,Diptera,non_destructive,2.884800712846709,7.601901959875166
+24W170,F6,CDFA_P25,NA,NA,NA,NA,21.4,1.72,-1.53,Yes,NA,Diptera,Platypezidae,Calotarsa,insignis,27.XI.1980,1980-11-27,1980,Diptera,non_destructive,3.0633909220278057,7.590852123688581
+24W182,E7,CDFA_P25,NA,NA,NA,NA,13.6,1.31,0.3,Yes,NA,Diptera,Platypezidae,Plesioclythia,agarici,28.II.1982,1982-02-28,1982,Diptera,non_destructive,2.6100697927420065,7.591861714889934
+24W198,C9,CDFA_P25,NA,NA,NA,NA,0.3,0.08,0.01,Yes,NA,Diptera,Empididae,Brachystoma,NA,3.VI.1984,1984-06-03,1984,Diptera,non_destructive,-1.203972804325936,7.592870287844818
+24W206,B10,CDFA_P25,NA,NA,NA,NA,26.1,1.66,-7.94,Yes,NA,Diptera,Empididae,Rhamphomyia,sp. 2,20.VI.1994,1994-06-20,1994,Diptera,non_destructive,3.261935314328648,7.597897950521784
+24W215,C11,CDFA_P25,NA,NA,NA,NA,15,1.76,-0.76,Yes,NA,Diptera,Hybotidae,Cerathybos,NA,8.IX.1983,1983-09-08,1983,Diptera,non_destructive,2.70805020110221,7.592366128519796
+24W225,D12,CDFA_P25,NA,NA,NA,NA,266.5,2.22,3.22,Yes,NA,Diptera,Hybotidae,Leptopeza,NA,3.V.1984,1984-05-03,1984,Diptera,non_destructive,5.585374243605899,7.592870287844818
+24W233,A1,CDFA_P26,NA,NA,NA,NA,18.9,2.07,0.34,Yes,NA,Coleoptera,Elmidae,Zaitzevia,parvula,04.IV.1989,1989-04-04,1989,Coleoptera,non_destructive,2.9391619220655967,7.5953872788539725
+24W242,B2,CDFA_P26,NA,NA,NA,NA,24.6,1.44,0.43,Yes,NA,Coleoptera,Brachypsectridae,Brachypsectra,fulva,25.VII.1982,1982-07-25,1982,Coleoptera,non_destructive,3.202746442938317,7.591861714889934
+24W251,C3,CDFA_P26,NA,NA,NA,NA,217.3,1.85,1.23,Yes,NA,Coleoptera,Elateridae,Agriotella,californica,09.IV.1983,1983-04-09,1983,Coleoptera,non_destructive,5.381278887262384,7.592366128519796
+24W260,D4,CDFA_P26,NA,NA,NA,NA,153.2,1.79,0.76,Yes,NA,Coleoptera,Lycidae,Lucaina,greeni,12.VII.2011,2011-07-12,2011,Coleoptera,non_destructive,5.0317442573064906,7.606387389772652
+24W269,E5,CDFA_P26,NA,NA,NA,NA,377.3,2.02,1.47,Yes,NA,Coleoptera,Cantharidae,Silis,sp.,09.V.1990,1990-05-09,1990,Coleoptera,non_destructive,5.933040626970265,7.595889917718538
+24W278,F6,CDFA_P26,NA,NA,NA,NA,19.6,2.03,0.58,Yes,NA,Coleoptera,Dermestidae,Novelsis,andersoni,09.IV.1980,1980-04-09,1980,Coleoptera,non_destructive,2.975529566236472,7.590852123688581
+24W287,G7,CDFA_P26,NA,NA,NA,NA,23,2.09,0.53,Yes,NA,Coleoptera,Dermestidae,Anthrenus,lepidus,02.VI.1993,1993-06-02,1993,Coleoptera,non_destructive,3.1354942159291497,7.597396320212795
+24W296,H8,CDFA_P26,NA,NA,NA,NA,33,2.06,1.05,Yes,NA,Coleoptera,Dermestidae,Cryptorhopalum,obesulum,28.III.1993,1993-03-28,1993,Coleoptera,non_destructive,3.49650756146648,7.597396320212795
+24W303,G9,CDFA_P26,NA,NA,NA,NA,13.2,2.19,0.64,Yes,NA,Coleoptera,Dermestidae,Trogoderma,sternale maderae,13.IV.1984,1984-04-13,1984,Coleoptera,non_destructive,2.580216829592325,7.592870287844818
+24W310,F10,CDFA_P26,NA,NA,NA,NA,12.5,1.76,0.29,Yes,NA,Coleoptera,Bostrichidae,Stephanopachys,substriatus,28.V.2003,2003-05-28,2003,Coleoptera,non_destructive,2.5257286443082556,7.602401335665818
+24W317,E11,CDFA_P26,NA,NA,NA,NA,7.1,0.92,0.22,Yes,NA,Coleoptera,Bostrichidae,Lyctus,brunneus,16.VI.2005,2005-06-16,2005,Coleoptera,non_destructive,1.9600947840472696,7.60339933974067
+24W324,D12,CDFA_P26,NA,NA,NA,NA,102.2,1.31,0.84,Yes,NA,Coleoptera,Ptinidae,Utobium,elegans,03.VI.1983,1983-06-03,1983,Coleoptera,non_destructive,4.626931677769604,7.592366128519796
+24W328,A1,CDFA_P27,NA,NA,NA,NA,94.7,1.91,1.19,Yes,NA,Coleoptera,Bostrichidae,Amphicerus,simplex,28.IX.1980,1980-09-28,1980,Coleoptera,non_destructive,4.550714000192032,7.590852123688581
+24W337,B2,CDFA_P27,NA,NA,NA,NA,12,1.73,0.52,Yes,NA,Coleoptera,Ptinidae,Colposternus,tenuilineatus,22.VIII.1982,1982-08-22,1982,Coleoptera,non_destructive,2.4849066497880004,7.591861714889934
+24W346,C3,CDFA_P27,NA,NA,NA,NA,54.4,1.88,1.1,Yes,NA,Coleoptera,Ptinidae,Hemicoelus,gibbicollis,10.VII.1997,1997-07-10,1997,Coleoptera,non_destructive,3.996364153861897,7.599401333415815
+24W355,D4,CDFA_P27,NA,NA,NA,NA,64.4,1.51,0.51,Yes,NA,Coleoptera,Ptinidae,Ptilinus,basalis,19.III.1998,1998-03-19,1998,Coleoptera,non_destructive,4.165113633110308,7.599901959208498
+24W364,E5,CDFA_P27,NA,NA,NA,NA,5.4,1.28,0.19,Yes,NA,Coleoptera,Ptinidae,Xyletinus,rotundicollis,15.VIII.1982,1982-08-15,1982,Coleoptera,non_destructive,1.6863989535702288,7.591861714889934
+24W378,F6,CDFA_P27,NA,NA,NA,NA,33.3,1.95,1.03,Yes,NA,Coleoptera,Ptinidae,Tricorynus,conjunctus,22.VI.1983,1983-06-22,1983,Coleoptera,non_destructive,3.505557396986398,7.592366128519796
+24W387,G7,CDFA_P27,NA,NA,NA,NA,3.8,1.86,0.33,Yes,NA,Coleoptera,Ptinidae,Niptus,giulianii,01.IX.1980,1980-09-01,1980,Coleoptera,non_destructive,1.33500106673234,7.590852123688581
+24W403,G9,CDFA_P27,NA,NA,NA,NA,143.6,1.74,0.88,Yes,NA,Coleoptera,Cleridae,Phyllobaenus,discoideus,13.III.1984,1984-03-13,1984,Coleoptera,non_destructive,4.9670316566141235,7.592870287844818
+24W410,F10,CDFA_P27,NA,NA,NA,NA,109.7,1.87,1.26,Yes,NA,Coleoptera,Cleridae,Boschella,fasciata,26.VII.2005,2005-07-26,2005,Coleoptera,non_destructive,4.697749367281185,7.60339933974067
+24W417,E11,CDFA_P27,NA,NA,NA,NA,4.1,10.34,0.47,Yes,NA,Coleoptera,Trogossitidae,Airora,sp.,12.IV.1994,1994-04-12,1994,Coleoptera,non_destructive,1.410986973710262,7.597897950521784
+24W424,D12,CDFA_P27,NA,NA,NA,NA,13.6,1.76,0.31,Yes,NA,Coleoptera,Melyridae,Trichochrous,sp.,10.V.2013,2013-05-10,2013,Coleoptera,non_destructive,2.6100697927420065,7.607381425639791
+24W435,F1,CDFA_P28,NA,NA,NA,NA,12.8,1.8,1.23,Yes,NA,Diptera,Syrphidae,Eupeodes,lapponicus,17.V.2007,2007-05-17,2007,Diptera,destructive,2.549445170925571,7.604396348796338
+24W439,B2,CDFA_P28,NA,NA,NA,NA,12.7,2.39,0.41,Yes,NA,Diptera,Dolichopodidae,Hydrophorus,NA,14.VII.1985,1985-07-14,1985,Diptera,destructive,2.5416019934645457,7.59337419312129
+24W449,D3,CDFA_P28,NA,NA,NA,NA,5.2,2.39,0.59,Yes,NA,Diptera,Empididae,Empis,NA,26.V.1985,1985-05-26,1985,Diptera,destructive,1.6486586255873816,7.59337419312129
+24W471,A4,CDFA_P28,NA,NA,NA,NA,20.4,1.93,1.02,Yes,NA,Diptera,Empididae,Rhamphomyia,NA,26.III.2003,2003-03-26,2003,Diptera,destructive,3.0155349008501706,7.602401335665818
+24W483,E5,CDFA_P28,NA,NA,NA,NA,17.1,1.95,0.75,Yes,NA,Diptera,Syrphidae,Platycheirus,NA,11.IV.2011,2011-04-11,2011,Diptera,destructive,2.8390784635086144,7.606387389772652
+24W494,H6,CDFA_P28,NA,NA,NA,NA,14.8,1.89,1.31,Yes,NA,Diptera,Syrphidae,Syrphus,currani,22.VI.2006,2006-06-22,2006,Diptera,destructive,2.6946271807700692,7.603897968521881
+24W501,G7,CDFA_P28,NA,NA,NA,NA,14.2,1.78,1.23,Yes,NA,Diptera,Syrphidae,Pseudoscaeva,diversifasciata,20.IV.2003,2003-04-20,2003,Diptera,destructive,2.653241964607215,7.602401335665818
+24W509,G8,CDFA_P28,NA,NA,NA,NA,7.7,1.88,0.57,Yes,NA,Diptera,Syrphidae,Scaeva,pyrastri,15.IV.2003,2003-04-15,2003,Diptera,destructive,2.0412203288596382,7.602401335665818
+24W513,C9,CDFA_P28,NA,NA,NA,NA,20.4,1.68,1.38,Yes,NA,Diptera,Syrphidae,Dasysyrphus,intrudens,9.VII.2008,2008-07-09,2008,Diptera,destructive,3.0155349008501706,7.60489448081162
+24W524,F10,CDFA_P28,NA,NA,NA,NA,11.2,1.43,0.7,Yes,NA,Diptera,Syrphidae,Sphaerophoria,sulphuripes,24.V.2006,2006-05-24,2006,Diptera,destructive,2.4159137783010487,7.603897968521881
+24W528,B11,CDFA_P28,NA,NA,NA,NA,28.2,1.74,1.15,Yes,NA,Diptera,Mydidae,Rhaphiomidas,acton maculatus,2.VI.1980,1980-06-02,1980,Diptera,destructive,3.339321977944068,7.590852123688581
+24W538,D12,CDFA_P28,NA,NA,NA,NA,36.2,1.78,1.37,Yes,NA,Diptera,Mydidae,Rhaphiomidas,acton maehleri,15.VIII.1982,1982-08-15,1982,Diptera,destructive,3.5890591188317256,7.591861714889934
+B0-023,A1,Glenn_P2,NA,NA,NA,NA,57.4,1.73,1.21,Yes,NA,Lepidoptera,Gelechiidae,Chionodes,NA,43895,2020-03-05,2020,Lepidoptera,destructive,4.050044303325521,7.61085279039525
+B2-062,B1,Glenn_P3,NA,NA,NA,NA,86.2,2.07,1.89,Yes,NA,Lepidoptera,Ypsolophidae,Ypsolopha,NA,44632,2022-03-12,2022,Lepidoptera,non_destructive,4.456670177669648,7.611842399580417
+B2-169,E2,Glenn_P2,NA,NA,NA,NA,51.7,2.15,1.78,Yes,NA,Lepidoptera,Gelechiidae,Chionodes,NA,44683,2022-05-02,2022,Lepidoptera,destructive,3.945457781514384,7.611842399580417
+B2-220,B3,Glenn_P2,NA,NA,NA,NA,105.7,2.12,1.77,Yes,NA,Lepidoptera,Gelechiidae,NA,NA,44695,2022-05-14,2022,Lepidoptera,destructive,4.660604892876192,7.611842399580417
+B2-286,G4,Glenn_P2,NA,NA,NA,NA,28.3,2.09,1.07,Yes,NA,Lepidoptera,Gelechiidae,Aristotelia,NA,44706,2022-05-25,2022,Lepidoptera,destructive,3.342861804649192,7.611842399580417
+B2-297,F5,Glenn_P2,NA,NA,NA,NA,5.2,4.18,1.12,Yes,NA,Lepidoptera,Coleophoridae,Coleophora,Coleophora glaucella,44706,2022-05-25,2022,Lepidoptera,destructive,1.6486586255873816,7.611842399580417
+B2-319,C6,Glenn_P2,NA,NA,NA,NA,18.7,2.15,1.53,Yes,NA,Lepidoptera,Gelechiidae,NA,NA,44707,2022-05-26,2022,Lepidoptera,destructive,2.928523523860541,7.611842399580417
+B2-399,H7,Glenn_P2,NA,NA,NA,NA,13.8,2.26,1.37,Yes,NA,Lepidoptera,Bucculatricidae,Bucculatrix,NA,44724,2022-06-12,2022,Lepidoptera,destructive,2.624668592163159,7.611842399580417
+B2-426,D8,Glenn_P2,NA,NA,NA,NA,14.1,2.28,1.5,Yes,NA,Lepidoptera,Gelechiidae,NA,NA,44736,2022-06-24,2022,Lepidoptera,destructive,2.6461747973841225,7.611842399580417
+B2-467,F9,Glenn_P2,NA,NA,NA,NA,3.6,1.8,0.54,Yes,NA,Lepidoptera,Tineidae,Tinea,Tinea pellionella,44748,2022-07-06,2022,Lepidoptera,destructive,1.2809338454620642,7.611842399580417
+B2-482,A10,Glenn_P2,NA,NA,NA,NA,2.9,2.43,0.53,Yes,NA,Lepidoptera,Gelechiidae,Aristotelia,NA,44751,2022-07-09,2022,Lepidoptera,destructive,1.0647107369924282,7.611842399580417
+B2-561,C12,Glenn_P2,NA,NA,NA,NA,10.3,2.16,1.77,Yes,NA,Lepidoptera,Cosmopterigidae,Stagmatophora,Stagmatophora iridella,44764,2022-07-22,2022,Lepidoptera,destructive,2.33214389523559,7.611842399580417
+B2-571,G12,Glenn_P2,NA,NA,NA,NA,5.1,2.4,3.25,Yes,NA,Lepidoptera,Nepticulidae,NA,NA,44764,2022-07-22,2022,Lepidoptera,destructive,1.62924053973028,7.611842399580417
+B2-576,H12,Glenn_P2,NA,NA,NA,NA,18.1,0.81,0.49,Yes,NA,Lepidoptera,Gelechiidae,Chionodes,NA,44764,2022-07-22,2022,Lepidoptera,destructive,2.89591193827178,7.611842399580417
+B2-598,H3,Glenn_P3,NA,NA,NA,NA,9.6,1.66,0.7,Yes,NA,Lepidoptera,Gelechiidae,Chionodes,NA,44767,2022-07-25,2022,Lepidoptera,non_destructive,2.26176309847379,7.611842399580417
+B2-613,E4,Glenn_P3,NA,NA,NA,NA,0.8,7.48,0.21,Yes,NA,Lepidoptera,Lyonetiidae,Leucoptera,NA,44773,2022-07-31,2022,Lepidoptera,non_destructive,-0.2231435513142097,7.611842399580417
+B2-627,A5,Glenn_P3,NA,NA,NA,NA,31.6,1.91,1.04,Yes,NA,Lepidoptera,Gelechiidae,Gnorimoschema,Gnorimoschema paternale,44775,2022-08-02,2022,Lepidoptera,non_destructive,3.4531571205928664,7.611842399580417
+B3-007,C6,Glenn_P3,NA,NA,NA,NA,1,-3.75,0.17,Yes,NA,Lepidoptera,Ypsolophidae,Ypsolopha,Ypsolopha ochrella,45059,2023-05-13,2023,Lepidoptera,non_destructive,0,7.612336837167746
+B3-189,H7,Glenn_P3,NA,NA,NA,NA,19.3,2.21,1.4,Yes,NA,Lepidoptera,Glyphipterigidae,Glyphipterix,Glyphipterix sistes,45111,2023-07-04,2023,Lepidoptera,non_destructive,2.9601050959108397,7.612336837167746
+B3-197,B8,Glenn_P3,NA,NA,NA,NA,2.1,1.79,0.29,Yes,NA,Lepidoptera,Yponomeutidae,Cedestis,NA,45112,2023-07-05,2023,Lepidoptera,non_destructive,0.7419373447293773,7.612336837167746
+B3-243,F9,Glenn_P3,NA,NA,NA,NA,15.9,0.97,0.38,Yes,NA,Lepidoptera,Gracillariidae,Parornix,NA,45126,2023-07-19,2023,Lepidoptera,non_destructive,2.766319109226186,7.612336837167746
+B3-262,G7,Glenn_P4,NA,NA,NA,NA,16.6,2.07,0.49,Yes,NA,Lepidoptera,Geometridae,Synchlora,Synchlora aerata,45129,2023-07-22,2023,Lepidoptera,destructive,2.8094026953624978,7.612336837167746
+B3-271,D8,Glenn_P4,NA,NA,NA,NA,28.5,2.05,1.17,Yes,NA,Lepidoptera,Erebidae,Orgyia,Orgyia cana,45131,2023-07-24,2023,Lepidoptera,destructive,3.349904087274605,7.612336837167746
+B3-277,C3,Glenn_P4,NA,NA,NA,NA,22.4,1.65,0.41,Yes,NA,Lepidoptera,Noctuidae,Euxoa,Euxoa tessellata,45133,2023-07-26,2023,Lepidoptera,destructive,3.109060958860994,7.612336837167746
+B3-302,E10,Glenn_P3,NA,NA,NA,NA,7.3,2.36,1.11,Yes,NA,Lepidoptera,Gelechiidae,Aroga,Aroga camptogramma,45139,2023-08-01,2023,Lepidoptera,non_destructive,1.9878743481543455,7.612336837167746
+B3-333,E9,Glenn_P4,NA,NA,NA,NA,137.7,1.89,0.85,Yes,NA,Lepidoptera,Noctuidae,Pseudorthodes,Pseudorthodes irrorata,45147,2023-08-09,2023,Lepidoptera,destructive,4.925077405734609,7.612336837167746
+B3-354,A1,Glenn_P4,NA,NA,NA,NA,13.1,1.83,0.31,Yes,NA,Lepidoptera,Tortricidae,Decodes,Decodes montanus,45151,2023-08-13,2023,Lepidoptera,destructive,2.5726122302071057,7.612336837167746
+B3-366,G11,Glenn_P3,NA,NA,NA,NA,3.8,1.67,0.32,Yes,NA,Lepidoptera,Gracillariidae,Phyllonorycter,NA,45152,2023-08-14,2023,Lepidoptera,non_destructive,1.33500106673234,7.612336837167746
+B3-380,C12,Glenn_P3,NA,NA,NA,NA,3.3,1.02,0.33,Yes,NA,Lepidoptera,Gelechiidae,Chionodes,NA,45154,2023-08-16,2023,Lepidoptera,non_destructive,1.1939224684724346,7.612336837167746
+B3-415,F10,Glenn_P4,NA,NA,NA,NA,24.3,2,0.59,Yes,NA,Lepidoptera,Geometridae,Spargania,Spargania magnoliata,45158,2023-08-20,2023,Lepidoptera,destructive,3.190476350346503,7.612336837167746
+B3-472,A11,Glenn_P4,NA,NA,NA,NA,21.5,1.91,0.59,Yes,NA,Lepidoptera,Noctuidae,Euxoa,Euxoa sp.,45175,2023-09-06,2023,Lepidoptera,destructive,3.068052935133617,7.612336837167746
+B3-526,F4,Glenn_P4,NA,NA,NA,NA,66.6,1.93,0.69,Yes,NA,Lepidoptera,Noctuidae,Euxoa,Euxoa punctigera,45185,2023-09-16,2023,Lepidoptera,destructive,4.198704577546343,7.612336837167746
+B3-569,C5,Glenn_P4,NA,NA,NA,NA,17.1,1.78,0.47,Yes,NA,Lepidoptera,Noctuidae,Euxoa,Euxoa brevipennis,45190,2023-09-21,2023,Lepidoptera,destructive,2.8390784635086144,7.612336837167746
+B3-592,A12,Glenn_P4,NA,NA,NA,NA,30.2,1.86,0.53,Yes,NA,Lepidoptera,Noctuidae,Lithophane,Lithophane subtilis,45192,2023-09-23,2023,Lepidoptera,destructive,3.407841924380824,7.612336837167746
+B3-594,B6,Glenn_P4,NA,NA,NA,NA,33.5,2.13,1.21,Yes,NA,Lepidoptera,Noctuidae,Euxoa,Euxoa henrietta,45192,2023-09-23,2023,Lepidoptera,destructive,3.5115454388310208,7.612336837167746
+B3-653,D2,Glenn_P4,NA,NA,NA,NA,8.4,2.38,0.29,Yes,NA,Lepidoptera,Tortricidae,Epinotia,Epinotia bigemina,45207,2023-10-08,2023,Lepidoptera,destructive,2.128231705849268,7.612336837167746
+CASENT8539175,E10,CAS_P39,NA,NA,NA,NA,56.5,2.45,0.31,Yes,NA,Lepidoptera,Noctuidae,Pseudorthodes,Pseudorthodes puerilis,2022-05-13,2022-05-13,2022,Lepidoptera,non_destructive,4.034240638152395,7.611842399580417
+CASENT8539177,A7,CAS_P38,NA,NA,NA,NA,7.3,1.68,0.5,Yes,NA,Coleoptera,Staphylinidae,Nicrophorus,Nicrophorus nigrita,2022-05-13,2022-05-13,2022,Coleoptera,non_destructive,1.9878743481543455,7.611842399580417
+CASENT8539912,G3,CAS_P39,NA,NA,NA,NA,25.4,2.5,0.38,Yes,NA,Lepidoptera,Noctuidae,Pseudorthodes,Pseudorthodes puerilis,2022-10-10,2022-10-10,2022,Lepidoptera,non_destructive,3.2347491740244907,7.611842399580417
+CASENT8539941,C6,CAS_P39,NA,NA,NA,NA,29.9,2.53,0.42,Yes,NA,Lepidoptera,Noctuidae,Homorthodes,Homorthodes communis,2022-10-10,2022-10-10,2022,Lepidoptera,non_destructive,3.3978584803966405,7.611842399580417
+CASENT8539969,D5,CAS_P39,NA,NA,NA,NA,11,1.84,0.42,Yes,NA,Lepidoptera,Noctuidae,Zosteropoda,Zosteropoda hirtipes,2022-09-13,2022-09-13,2022,Lepidoptera,non_destructive,2.3978952727983707,7.611842399580417
+CASENT8540033,A4,CAS_P39,NA,NA,NA,NA,6.6,1.29,0.59,Yes,NA,Lepidoptera,Noctuidae,Fishia,Fishia discors,2022-09-30,2022-09-30,2022,Lepidoptera,non_destructive,1.8870696490323795,7.611842399580417
+CASENT8540073,B1,CAS_P39,NA,NA,NA,NA,18.8,2.15,0.42,Yes,NA,Lepidoptera,Noctuidae,Agrotis,Agrotis ipsilon,2022-10-18,2022-10-18,2022,Lepidoptera,non_destructive,2.933856869835904,7.611842399580417
+CASENT8540172,E2,CAS_P39,NA,NA,NA,NA,16,2.79,0.42,Yes,NA,Lepidoptera,Noctuidae,NA,NA,2022-10-10,2022-10-10,2022,Lepidoptera,non_destructive,2.772588722239781,7.611842399580417
+CASENT8551180,H7,CAS_P39,NA,NA,NA,NA,8.5,2.11,0.4,Yes,NA,Lepidoptera,Noctuidae,Egira,Egira hiemalis,2023-02-15,2023-02-15,2023,Lepidoptera,non_destructive,2.1400661634962708,7.612336837167746
+CASENT8551251,F8,CAS_P39,NA,NA,NA,NA,12,1.9,0.71,Yes,NA,Lepidoptera,Noctuidae,Unciella,Unciella primula,2023-03-12,2023-03-12,2023,Lepidoptera,non_destructive,2.4849066497880004,7.612336837167746
+CASENT8551416,B11,CAS_P39,NA,NA,NA,NA,4.2,1.76,0.79,Yes,NA,Lepidoptera,Noctuidae,Orthosia,Orthosia behrensiana,2023-02-16,2023-02-16,2023,Lepidoptera,non_destructive,1.4350845252893227,7.612336837167746
+CASENT8551455,F12,CAS_P39,NA,NA,NA,NA,11.2,4.77,0.45,Yes,NA,Lepidoptera,Noctuidae,Pleromelloida,Pleromelloida conserta,2023-02-16,2023-02-16,2023,Lepidoptera,non_destructive,2.4159137783010487,7.612336837167746
+CASENT8551523,G3,CAS_P38,NA,NA,NA,NA,8.1,1.28,0.41,Yes,NA,Coleoptera,Tenebrionidae,Edrotes,Edrotes ventricosus,2023-03-13,2023-03-13,2023,Coleoptera,non_destructive,2.0918640616783932,7.612336837167746
+CASENT8551555,H6,CAS_P38,NA,NA,NA,NA,30.6,1.76,1.2,Yes,NA,Coleoptera,Curculionidae,Ophryastes,Ophryastes desertus,2023-03-14,2023-03-14,2023,Coleoptera,non_destructive,3.4210000089583352,7.612336837167746
+CASENT8551566,B5,CAS_P38,NA,NA,NA,NA,83.8,1.83,1.3,Yes,NA,Coleoptera,Scarabaeidae,Tomarus,Tomarus gibbosus,2023-03-13,2023-03-13,2023,Coleoptera,non_destructive,4.428433007488037,7.612336837167746
+CASENT8559847,F1,CAS_P38,NA,NA,NA,NA,6.6,1.59,0.92,Yes,NA,Coleoptera,Coccinellidae,Coccinella,Coccinella septempunctata,2023-04-28,2023-04-28,2023,Coleoptera,non_destructive,1.8870696490323795,7.612336837167746
+CASENT8570414,E4,CAS_P38,NA,NA,NA,NA,5,1.52,0.71,Yes,NA,Coleoptera,Phengodidae,Zarhipis,Zarhipis integripennis,2023-06-15,2023-06-15,2023,Coleoptera,non_destructive,1.6094379124341005,7.612336837167746
+CASENT8581169,G9,CAS_P101,NA,NA,NA,NA,16.5,1.9,1.24,Yes,NA,Diptera,Therevidae,Acrosathe,Acrosathe vialis,1986,NA,1986,Diptera,destructive,2.803360380906535,7.593877844605118
+CASENT8581209,F6,CAS_P100,NA,NA,NA,NA,4.1,1.55,0.29,Yes,NA,Diptera,Tabanidae,Chrysops,Chrysops asbestos,1985,NA,1985,Diptera,destructive,1.410986973710262,7.59337419312129
+CASENT8581367,C3,CAS_P101,NA,NA,NA,NA,9.3,1.7,0.73,Yes,NA,Diptera,Bombyliidae,Bombylius,Bombylius cinerivus,1985,NA,1985,Diptera,destructive,2.2300144001592104,7.59337419312129
+CASENT8581507,D12,CAS_P100,NA,NA,NA,NA,4.8,1.54,0.45,Yes,NA,Diptera,Bombyliidae,Villa,Villa squamigera,1979,NA,1979,Diptera,destructive,1.5686159179138452,7.590346945602565
+CASENT8581538,C3,CAS_P100,NA,NA,NA,NA,2.5,1.41,1.39,Yes,NA,Diptera,Tabanidae,Chrysops,Chrysops wileyae,1980,NA,1980,Diptera,destructive,0.9162907318741552,7.590852123688581
+CASENT8581575,F10,CAS_P100,NA,NA,NA,NA,5.7,1.65,0.45,Yes,NA,Diptera,Bombyliidae,Exoprosopa,Exoprosopa doris,1980,NA,1980,Diptera,destructive,1.7404661748405046,7.590852123688581
+CASENT8581924,H8,CAS_P100,NA,NA,NA,NA,8.2,1.75,0.64,Yes,NA,Diptera,Acroceridae,Eulonchus,Eulonchus tristis,1998,NA,1998,Diptera,destructive,2.104134154270207,7.599901959208498
+CASENT8582590,D4,CAS_P101,NA,NA,NA,NA,3.5,1.49,0.27,Yes,NA,Diptera,Bombyliidae,Lepidanthrax,Lepidanthrax oribates,1980,NA,1980,Diptera,destructive,1.252762968495368,7.590852123688581
+CASENT8582626,D12,CAS_P101,NA,NA,NA,NA,2.2,1.63,0.2,Yes,NA,Diptera,Therevidae,Brachylinga,Brachylinga pavida,2002,NA,2002,Diptera,destructive,0.7884573603642703,7.601901959875166
+CASENT8582658,H8,CAS_P101,NA,NA,NA,NA,3.2,1.44,0.45,Yes,NA,Diptera,Bombyliidae,Conophorus,Conophorus sackenii,1981,NA,1981,Diptera,destructive,1.1631508098056809,7.591357046698551
+CASENT8582669,B2,CAS_P100,NA,NA,NA,NA,20.3,1.85,2.09,Yes,NA,Diptera,Stratiomyidae,Odontomyia,Odontomyia pilosa,1980,NA,1980,Diptera,destructive,3.0106208860477417,7.590852123688581
+CASENT8582674,G9,CAS_P100,NA,NA,NA,NA,18.1,1.71,0.8,Yes,NA,Diptera,Acroceridae,Eulonchus,Eulonchus smaragdinus,1993,NA,1993,Diptera,destructive,2.89591193827178,7.597396320212795
+CASENT8582733,E5,CAS_P101,NA,NA,NA,NA,5.3,1.7,0.55,Yes,NA,Diptera,Bombyliidae,Bombylius,Bombylius major,1980,NA,1980,Diptera,destructive,1.667706820558076,7.590852123688581
+CASENT8582766,G7,CAS_P100,NA,NA,NA,NA,10.9,1.7,0.76,Yes,NA,Diptera,Tabanidae,Tabanus,Tabanus kesseli,1980,NA,1980,Diptera,destructive,2.388762789235098,7.590852123688581
+CASENT8582786,F10,CAS_P101,NA,NA,NA,NA,8.7,1.69,0.77,Yes,NA,Diptera,Bombyliidae,Thevenetimyia,Thevenetimyia californica,1981,NA,1981,Diptera,destructive,2.163323025660538,7.591357046698551
+CASENT8582891,A1,CAS_P101,NA,NA,NA,NA,2.2,1.25,0.3,Yes,NA,Diptera,Bombyliidae,Desmatoneura,Desmatoneura argentifrons,1980,NA,1980,Diptera,destructive,0.7884573603642703,7.590852123688581
+CASENT8582990,B2,CAS_P101,NA,NA,NA,NA,13,1.98,1.09,Yes,NA,Diptera,Bombyliidae,Bombylius,Bombylius balion,1980,NA,1980,Diptera,destructive,2.5649493574615367,7.590852123688581
+CASENT9120370,C2,CAS_P38,NA,NA,NA,NA,9.5,1.79,0.51,Yes,NA,Coleoptera,Cerambycidae,Anastrangalia,Anastrangalia laetifica,2023-05-08,2023-05-08,2023,Coleoptera,non_destructive,2.2512917986064953,7.612336837167746
+CASENT9121143,A6,CAS_P36,NA,NA,NA,NA,4.3,2.3,0.24,Yes,NA,Coleoptera,Psephenidae,Eubrianax,edwardsii,1/18/08,2008-01-18,2008,Coleoptera,non_destructive,1.4586150226995167,7.60489448081162
+CASENT9121143,A6,CAS_P36,NA,NA,NA,NA,4.3,2.3,0.24,Yes,NA,Coleoptera,Psephenidae,Eubrianax,Eubrianax edwardsii,2008-01-18,2008-01-18,2008,Coleoptera,non_destructive,1.4586150226995167,7.60489448081162
+CASENT9121263,B2,CAS_P37,NA,NA,NA,NA,149,1.94,1.12,Yes,NA,Trichoptera,Calamoceratidae,Heteroplectron,californicum,4/26/11,2011-04-26,2011,Trichoptera,non_destructive,5.003946305945459,7.606387389772652
+CASENT9121263,B2,CAS_P37,NA,NA,NA,NA,149,1.94,1.12,Yes,NA,Trichoptera,Calamoceratidae,Heteroplectron,Heteroplectron californicum,2011-04-26,2011-04-26,2011,Trichoptera,non_destructive,5.003946305945459,7.606387389772652
+CASENT9121294,D4,CAS_P37,NA,NA,NA,NA,121.1,1.92,1.89,Yes,NA,Plecoptera,Perlodidae,Kogotus,nonus,4/22/11,2011-04-22,2011,Plecoptera,non_destructive,4.796616650559047,7.606387389772652
+CASENT9121294,D4,CAS_P37,NA,NA,NA,NA,121.1,1.92,1.89,Yes,NA,Plecoptera,Perlodidae,Kogotus,Kogotus nonus,2011-04-22,2011-04-22,2011,Plecoptera,non_destructive,4.796616650559047,7.606387389772652
+CASENT9121329,C9,CAS_P36,NA,NA,NA,NA,44.6,1.91,1.07,Yes,NA,Odonata,Coenagrionidae,Argia,vivida,4/22/11,2011-04-22,2011,Odonata,non_destructive,3.7977338590260183,7.606387389772652
+CASENT9121329,C9,CAS_P36,NA,NA,NA,NA,44.6,1.91,1.07,Yes,NA,Odonata,Coenagrionidae,Argia,Argia vivida,2011-04-22,2011-04-22,2011,Odonata,non_destructive,3.7977338590260183,7.606387389772652
+CASENT9121369,H3,CAS_P36,NA,NA,NA,NA,31.5,2.1,2.04,Yes,NA,Plecoptera,Nemouridae,Malenka,sp.,2/3/12,2012-02-03,2012,Plecoptera,non_destructive,3.449987545831587,7.60688453121963
+CASENT9121369,H3,CAS_P36,NA,NA,NA,NA,31.5,2.1,2.04,Yes,NA,Plecoptera,Nemouridae,Malenka,NA,2012-02-03,2012-02-03,2012,Plecoptera,non_destructive,3.449987545831587,7.60688453121963
+CASENT9121409,F3,CAS_P36,NA,NA,NA,NA,25.8,1.9,1.66,Yes,NA,Ephemeroptera,Ephemerellidae,Drunella,spinifera,4/29/07,2007-04-29,2007,Ephemeroptera,non_destructive,3.250374491927572,7.604396348796338
+CASENT9121409,F3,CAS_P36,NA,NA,NA,NA,25.8,1.9,1.66,Yes,NA,Ephemeroptera,Ephemerellidae,Drunella,Drunella spinifera,2007-04-29,2007-04-29,2007,Ephemeroptera,non_destructive,3.250374491927572,7.604396348796338
+CASENT9121415,D3,CAS_P36,NA,NA,NA,NA,316.2,2.03,1.66,Yes,NA,Plecoptera,Perlodidae,Kogotus,nonus,4/29/07,2007-04-29,2007,Plecoptera,non_destructive,5.756374924775372,7.604396348796338
+CASENT9121415,D3,CAS_P36,NA,NA,NA,NA,316.2,2.03,1.66,Yes,NA,Plecoptera,Perlodidae,Kogotus,Kogotus nonus,2007-04-29,2007-04-29,2007,Plecoptera,non_destructive,5.756374924775372,7.604396348796338
+CASENT9121426,E9,CAS_P37,NA,NA,NA,NA,19.5,2.08,1.73,Yes,NA,Ephemeroptera,Ameletidae,Ameletus,cooki,5/24/11,2011-05-24,2011,Ephemeroptera,non_destructive,2.970414465569701,7.606387389772652
+CASENT9121459,D10,CAS_P37,NA,NA,NA,NA,126.7,1.74,0.54,Yes,NA,Trichoptera,Rhyacophilidae,Rhyacophila,vocala,6/8/11,2011-06-08,2011,Trichoptera,non_destructive,4.841822087327094,7.606387389772652
+CASENT9121460,G11,CAS_P37,NA,NA,NA,NA,22.7,2,1.39,Yes,NA,Ephemeroptera,Heptageniidae,Epeorus,sp.,6/16/11,2011-06-16,2011,Ephemeroptera,non_destructive,3.122364924487357,7.606387389772652
+CASENT9130326,B3,CAS_P36,NA,NA,NA,NA,11.2,1.96,1.16,Yes,NA,Plecoptera,Chloroperlidae,Sweltsa,sp.,4/29/07,2007-04-29,2007,Plecoptera,non_destructive,2.4159137783010487,7.604396348796338
+CASENT9130332,B8,CAS_P37,NA,NA,NA,NA,8.5,2.01,0.58,Yes,NA,Plecoptera,Capniidae,Mesocapnia,projecta,2/2/12,2012-02-02,2012,Plecoptera,non_destructive,2.1400661634962708,7.60688453121963
+CASENT9130738,C2,CAS_P36,NA,NA,NA,NA,49,2,1.64,Yes,NA,Trichoptera,Brachycentridae,Brachycentrus,americanus,7/14/13,2013-07-14,2013,Trichoptera,non_destructive,3.8918202981106265,7.607381425639791
+CASENT9131447,D10,CAS_P29,NA,NA,NA,NA,7.8,1.76,0.47,Yes,NA,Ephemeroptera,Baetidae,Callibaetis,pictus,10/12/80,1980-10-12,1980,Ephemeroptera,non_destructive,2.0541237336955462,7.590852123688581
+CASENT9131451,G10,CAS_P29,NA,NA,NA,NA,7.9,1.64,0.57,Yes,NA,Ephemeroptera,Baetidae,Callibaetis,pictus,5/2/1980,2019-05-02,2019,Ephemeroptera,non_destructive,2.066862759472976,7.610357618312838
+CASENT9131453,D4,CAS_P29,NA,NA,NA,NA,0.8,0.27,0.61,Yes,NA,Trichoptera,Glossosomatidae,Agapetus,sp.,3/27/1983,2019-03-27,2019,Trichoptera,non_destructive,-0.2231435513142097,7.610357618312838
+CASENT9131458,A2,CAS_P36,NA,NA,NA,NA,44.4,1.88,1.36,Yes,NA,Ephemeroptera,Ephemerellidae,Timpanoga,hecuba,7/14/13,2013-07-14,2013,Ephemeroptera,non_destructive,3.7932394694381792,7.607381425639791
+CASENT9131466,C3,CAS_P29,NA,NA,NA,NA,137.4,1.65,0.74,Yes,NA,Plecoptera,Capniidae,Capnia,californica,1/15/1983,2019-01-15,2019,Plecoptera,non_destructive,4.922896379788249,7.610357618312838
+CASENT9131474,E1,CAS_P36,NA,NA,NA,NA,44.8,1.88,0.51,Yes,NA,Ephemeroptera,Heptageniidae,Epeorus,longimanus,7/14/13,2013-07-14,2013,Ephemeroptera,non_destructive,3.802208139420939,7.607381425639791
+CASENT9131523,A6,CAS_P29,NA,NA,NA,NA,3.2,1.65,0.37,Yes,NA,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,debilis,9/17/1982,2019-09-17,2019,Ephemeroptera,non_destructive,1.1631508098056809,7.610357618312838
+CASENT9131524,B7,CAS_P29,NA,NA,NA,NA,164.1,1.62,0.76,Yes,NA,Trichoptera,Limnephilidae,Clostoeca,disjunctus,2/8/1984,2019-02-08,2019,Trichoptera,non_destructive,5.100475998096045,7.610357618312838
+CASENT9131564,C10,CAS_P29,NA,NA,NA,NA,16.7,1.57,0.75,Yes,NA,Odonata,Gomphidae,Ophiogomphus,bison,7/13/12,2012-07-13,2012,Odonata,non_destructive,2.8154087194227095,7.60688453121963
+CASENT9131569,G4,CAS_P29,NA,NA,NA,NA,4.4,1.95,0.38,Yes,NA,Ephemeroptera,Heptageniidae,Heptagenia,rubroventris,9/17/1982,2019-09-17,2019,Ephemeroptera,non_destructive,1.4816045409242156,7.610357618312838
+CASENT9131576,F12,CAS_P28,NA,NA,NA,NA,11.4,1.41,0.15,Yes,NA,Trichoptera,Glossosomatidae,Glossosoma,pterna,1/2/1983,2019-01-02,2019,Trichoptera,non_destructive,2.4336133554004498,7.610357618312838
+CASENT9131577,D5,CAS_P29,NA,NA,NA,NA,1.4,3.65,0.37,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,sp.,4/1/1983,2019-04-01,2019,Trichoptera,non_destructive,0.3364722366212129,7.610357618312838
+CASENT9131596,F8,CAS_P29,NA,NA,NA,NA,22.6,1.58,0.46,Yes,NA,Diptera,Chaoboridae,Chaoborus,sp.,4/10/15,2015-04-10,2015,Diptera,non_destructive,3.1179499062782403,7.608374474380783
+CASENT9131606,A5,CAS_P29,NA,NA,NA,NA,1.4,2.5,0.25,Yes,NA,Plecoptera,Nemouridae,Malenka,californica,7/15/1982,2019-07-15,2019,Plecoptera,non_destructive,0.3364722366212129,7.610357618312838
+CASENT9131607,F3,CAS_P29,NA,NA,NA,NA,141.4,1.66,0.7,Yes,NA,Ephemeroptera,Baetidae,Callibaetis,californicus,9/26/1983,2019-09-26,2019,Ephemeroptera,non_destructive,4.951592753462473,7.610357618312838
+CASENT9131610,F10,CAS_P29,NA,NA,NA,NA,3.3,2.05,0.74,Yes,NA,Ephemeroptera,Baetidae,Callibaetis,pictus,6/30/80,1980-06-30,1980,Ephemeroptera,non_destructive,1.1939224684724346,7.590852123688581
+CASENT9131618,C5,CAS_P29,NA,NA,NA,NA,1.5,4.25,0.2,Yes,NA,Plecoptera,Nemouridae,Malenka,sp.,7/15/1982,2019-07-15,2019,Plecoptera,non_destructive,0.4054651081081644,7.610357618312838
+CASENT9131658,H7,CAS_P29,NA,NA,NA,NA,142.1,1.67,0.69,Yes,NA,Diptera,Simuliidae,Cnephia,minus,7/3/1983,2019-07-03,2019,Diptera,non_destructive,4.956531035103055,7.610357618312838
+CASENT9131660,E1,CAS_P34,NA,NA,NA,NA,23.5,1.14,0.34,Yes,NA,Plecoptera,Perlidae,Calineuria,californica,3/23/82,1982-03-23,1982,Plecoptera,non_destructive,3.1570004211501135,7.591861714889934
+CASENT9131673,D1,CAS_P35,NA,NA,NA,NA,11.3,1.7,0.27,Yes,NA,Coleoptera,Dytiscidae,NA,NA,9/30/16,2016-09-30,2016,Coleoptera,non_destructive,2.424802725718295,7.60887062919126
+CASENT9131686,C1,CAS_P36,NA,NA,NA,NA,90.9,2.03,1.48,Yes,NA,Trichoptera,Hydropsychidae,Parapsyche,sp.,9/30/16,2016-09-30,2016,Trichoptera,non_destructive,4.509760001183433,7.60887062919126
+CASENT9131702,A3,CAS_P29,NA,NA,NA,NA,133.5,1.67,0.7,Yes,NA,Ephemeroptera,Heptageniidae,Rhithrogena,morrisoni,1/11/1983,2019-01-11,2019,Ephemeroptera,non_destructive,4.894101477840304,7.610357618312838
+CASENT9131704,F4,CAS_P29,NA,NA,NA,NA,3,2.15,0.37,Yes,NA,Trichoptera,Hydropsychidae,Homoplectra,oaklandensis,"1/5/1983, 1/8/1983, 1/10/1983",2019-01-05,2019,Trichoptera,non_destructive,1.0986122886681098,7.610357618312838
+CASENT9131705,E10,CAS_P29,NA,NA,NA,NA,8.8,2.83,0.62,Yes,NA,Ephemeroptera,Baetidae,Callibaetis,pictus,6/11/80,1980-06-11,1980,Ephemeroptera,non_destructive,2.174751721484161,7.590852123688581
+CASENT9131706,B3,CAS_P29,NA,NA,NA,NA,135.9,1.67,0.74,Yes,NA,Plecoptera,Capniidae,Capnia,californica,1/15/1983,2019-01-15,2019,Plecoptera,non_destructive,4.911919321157098,7.610357618312838
+CASENT9131707,F2,CAS_P29,NA,NA,NA,NA,3.4,1.95,0.39,Yes,NA,Trichoptera,Rhyacophilidae,Rhyacophila,norcuta,9/30/1983,2019-09-30,2019,Trichoptera,non_destructive,1.2237754316221157,7.610357618312838
+CASENT9131708,A9,CAS_P29,NA,NA,NA,NA,3.2,1.58,0.24,Yes,NA,Trichoptera,Philopotamidae,Dolophilodes,novusamericanus,5/9/1983,2019-05-09,2019,Trichoptera,non_destructive,1.1631508098056809,7.610357618312838
+CASENT9131710,H1,CAS_P29,NA,NA,NA,NA,0.9,-9,0.7,Yes,NA,Trichoptera,Philopotamidae,Wormaldia,gabriella,9/30/1982,2019-09-30,2019,Trichoptera,non_destructive,-0.10536051565782628,7.610357618312838
+CASENT9131711,D2,CAS_P29,NA,NA,NA,NA,4.8,1.29,0.26,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,errigena,5/4/1983,2019-05-04,2019,Trichoptera,non_destructive,1.5686159179138452,7.610357618312838
+CASENT9131712,E5,CAS_P29,NA,NA,NA,NA,1.3,3.43,0.42,Yes,NA,Ephemeroptera,Baetidae,Baetis,intermedius,5/4/1983,2019-05-04,2019,Ephemeroptera,non_destructive,0.26236426446749106,7.610357618312838
+CASENT9131727,G10,CAS_P36,NA,NA,NA,NA,89.7,1.96,1.48,Yes,NA,Ephemeroptera,Ephemerellidae,Drunella,flavilinea,4/6/08,2008-04-06,2008,Ephemeroptera,non_destructive,4.49647076906475,7.60489448081162
+CASENT9131733,D1,CAS_P36,NA,NA,NA,NA,6.5,1.69,0.73,Yes,NA,Coleoptera,Elmidae,Lara,sp.,9/30/16,2016-09-30,2016,Coleoptera,non_destructive,1.8718021769015911,7.60887062919126
+CASENT9131741,A7,CAS_P37,NA,NA,NA,NA,115.3,2.26,0.89,Yes,NA,Ephemeroptera,Heptageniidae,Ironodes,sp.,5/17/07,2007-05-17,2007,Ephemeroptera,non_destructive,4.747537427275013,7.604396348796338
+CASENT9131758,D12,CAS_P28,NA,NA,NA,NA,6.1,1.8,0.08,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,podagrum,11/3/1983,2019-11-03,2019,Trichoptera,non_destructive,1.8082887711792657,7.610357618312838
+CASENT9131760,E12,CAS_P28,NA,NA,NA,NA,3.4,1.85,0.23,Yes,NA,Trichoptera,Glossosomatidae,Glossosoma,pterna,1/2/1983,2019-01-02,2019,Trichoptera,non_destructive,1.2237754316221157,7.610357618312838
+CASENT9131796,D3,CAS_P29,NA,NA,NA,NA,135.2,1.66,0.71,Yes,NA,Plecoptera,Capniidae,Capnia,elongata,4/1/1983,2019-04-01,2019,Plecoptera,non_destructive,4.906755163608864,7.610357618312838
+CASENT9131801,F11,CAS_P29,NA,NA,NA,NA,21.9,1.92,1.04,Yes,NA,Plecoptera,Capniidae,Capnura,wanica,1/13/06,2006-01-13,2006,Plecoptera,non_destructive,3.086486636822455,7.603897968521881
+CASENT9131802,G5,CAS_P29,NA,NA,NA,NA,5,2.29,0.27,Yes,NA,Ephemeroptera,Baetidae,Baetis,intermedius,5/4/1983,2019-05-04,2019,Ephemeroptera,non_destructive,1.6094379124341005,7.610357618312838
+CASENT9131821,H3,CAS_P29,NA,NA,NA,NA,135.7,1.67,0.65,Yes,NA,Megaloptera,Sialidae,Sialis,sp.,9/17/1982,2019-09-17,2019,Megaloptera,non_destructive,4.9104465668408235,7.610357618312838
+CASENT9131824,H1,CAS_P35,NA,NA,NA,NA,50.3,1.73,0.78,Yes,NA,Plecoptera,Peltoperlidae,Yoraperla,nigrisoma,9/30/16,2016-09-30,2016,Plecoptera,non_destructive,3.918005077105694,7.60887062919126
+CASENT9131859,A4,CAS_P29,NA,NA,NA,NA,0.3,-0.48,0.13,Yes,NA,Plecoptera,Chloroperlidae,Kathoperla,perdita,3/27/1982,2019-03-27,2019,Plecoptera,non_destructive,-1.203972804325936,7.610357618312838
+CASENT9131862,A1,CAS_P34,NA,NA,NA,NA,6.5,1.84,0.71,Yes,NA,Diptera,Tabanidae,Tabanus,sp.,9/24/05,2005-09-24,2005,Diptera,non_destructive,1.8718021769015911,7.60339933974067
+CASENT9131873,B1,CAS_P35,NA,NA,NA,NA,6,1.35,0.35,Yes,NA,Hemiptera,Corixidae,Sigara,mckinstyri,9/30/82,1982-09-30,1982,Hemiptera,non_destructive,1.791759469228055,7.591861714889934
+CASENT9131873,B1,CAS_P35,NA,NA,NA,NA,6,1.35,0.35,Yes,NA,Trichoptera,Limnephilidae,Limnephilus,sp.,3/30/03,2003-03-30,2003,Trichoptera,non_destructive,1.791759469228055,7.602401335665818
+CASENT9131874,B9,CAS_P29,NA,NA,NA,NA,36.9,1.49,0.75,Yes,NA,Ephemeroptera,Ephemerellidae,Matriella,teresa,5/29/1983,2019-05-29,2019,Ephemeroptera,non_destructive,3.6082115510464816,7.610357618312838
+CASENT9131876,E11,CAS_P29,NA,NA,NA,NA,22.4,1.72,0.75,Yes,NA,Ephemeroptera,Baetidae,Callibaetis,ferrugineus,4/9/81,1981-04-09,1981,Ephemeroptera,non_destructive,3.109060958860994,7.591357046698551
+CASENT9131877,C9,CAS_P29,NA,NA,NA,NA,4.3,1.9,0.34,Yes,NA,Ephemeroptera,Heptageniidae,Heptagenia,sp.,7/15/1982,2019-07-15,2019,Ephemeroptera,non_destructive,1.4586150226995167,7.610357618312838
+CASENT9131881,G8,CAS_P29,NA,NA,NA,NA,167.9,2.2,1.99,Yes,NA,Diptera,Chaoboridae,Chaoborus,sp.,1/29/13,2013-01-29,2013,Diptera,non_destructive,5.123368564083496,7.607381425639791
+CASENT9131882,D11,CAS_P29,NA,NA,NA,NA,11.2,1.5,0.63,Yes,NA,Odonata,Gomphidae,NA,NA,8/13/06,2006-08-13,2006,Odonata,non_destructive,2.4159137783010487,7.603897968521881
+CASENT9131899,H9,CAS_P29,NA,NA,NA,NA,16.3,1.87,0.63,Yes,NA,Odonata,Libellulidae,NA,NA,3/17/16,2016-03-17,2016,Odonata,non_destructive,2.791165107812717,7.60887062919126
+CASENT9131920,E2,CAS_P29,NA,NA,NA,NA,4.4,1.35,0.44,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,errigena,5/4/1983,2019-05-04,2019,Trichoptera,non_destructive,1.4816045409242156,7.610357618312838
+CASENT9132106,E1,CAS_P35,NA,NA,NA,NA,11.9,1.57,0.23,Yes,NA,Coleoptera,Elmidae,Optioservus,quadrimaculatus,9/30/16,2016-09-30,2016,Coleoptera,non_destructive,2.4765384001174837,7.60887062919126
+CASENT9132116,E2,CAS_P36,NA,NA,NA,NA,32.6,1.79,0.97,Yes,NA,Plecoptera,Chloroperlidae,Drunella,flavilinea,7/14/13,2013-07-14,2013,Plecoptera,non_destructive,3.484312288372662,7.607381425639791
+CASENT9132135,A1,CAS_P37,NA,NA,NA,NA,72.3,2.05,0.88,Yes,NA,Ephemeroptera,Ephemerellidae,Drunella,flavilinea,4/22/11,2011-04-22,2011,Ephemeroptera,non_destructive,4.280824129164719,7.606387389772652
+CASENT9132175,A7,CAS_P29,NA,NA,NA,NA,160,1.49,0.63,Yes,NA,Trichoptera,Glossosomatidae,Anagapetus,sp.,2/17/1983,2019-02-17,2019,Trichoptera,non_destructive,5.075173815233827,7.610357618312838
+CASENT9132249,E3,CAS_P36,NA,NA,NA,NA,12.1,1.99,1.03,Yes,NA,Ephemeroptera,Ephemerellidae,Caudatella,hystrix,4/29/07,2007-04-29,2007,Ephemeroptera,non_destructive,2.493205452602695,7.604396348796338
+CASENT9132271,F5,CAS_P29,NA,NA,NA,NA,3.4,2.14,0.12,Yes,NA,Ephemeroptera,Baetidae,Baetis,intermedius,5/4/1983,2019-05-04,2019,Ephemeroptera,non_destructive,1.2237754316221157,7.610357618312838
+CASENT9132285,F1,CAS_P35,NA,NA,NA,NA,18.7,1.48,0.36,Yes,NA,Coleoptera,Elmidae,Narpus,concolor,9/30/16,2016-09-30,2016,Coleoptera,non_destructive,2.928523523860541,7.60887062919126
+CASENT9132313,C12,CAS_P37,NA,NA,NA,NA,53,2.03,1.99,Yes,NA,Ephemeroptera,Heptageniidae,Ironodes,sp.,5/11/11,2011-05-11,2011,Ephemeroptera,non_destructive,3.970291913552122,7.606387389772652
+CASENT9132325,D1,CAS_P34,NA,NA,NA,NA,26.5,2.12,0.39,Yes,NA,Ephemeroptera,Isonychiidae,Isonychia,velma,10/1/14,2014-10-01,2014,Ephemeroptera,non_destructive,3.277144732992177,7.607878073278507
+CASENT9132347,E3,CAS_P29,NA,NA,NA,NA,137.5,1.67,0.72,Yes,NA,Trichoptera,Philopotamidae,Chimarra,sp.,3/20/1982,2019-03-20,2019,Trichoptera,non_destructive,4.923623917106626,7.610357618312838
+CASENT9132400,G1,CAS_P36,NA,NA,NA,NA,29.5,1.77,0.86,Yes,NA,Diptera,Athericidae,Atherix,variegata,7/14/13,2013-07-14,2013,Diptera,non_destructive,3.3843902633457743,7.607381425639791
+CASENT9132491,A3,CAS_P36,NA,NA,NA,NA,15.5,1.77,0.79,Yes,NA,Trichoptera,Calamoceratidae,Heteroplectron,californicum,1/18/08,2008-01-18,2008,Trichoptera,non_destructive,2.740840023925201,7.60489448081162
+CASENT9132498,B12,CAS_P28,NA,NA,NA,NA,413.2,1.31,0.68,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,podagrum,4/1/1983,2019-04-01,2019,Trichoptera,non_destructive,6.0239317372454835,7.610357618312838
+CASENT9132509,H4,CAS_P29,NA,NA,NA,NA,3.5,2.23,0.31,Yes,NA,Plecoptera,Nemouridae,Malenka,californica,7/15/1982,2019-07-15,2019,Plecoptera,non_destructive,1.252762968495368,7.610357618312838
+CASENT9132521,F2,CAS_P36,NA,NA,NA,NA,48.2,1.93,1.22,Yes,NA,Trichoptera,Hydropsychidae,Arctopsyche,grandis,7/14/13,2013-07-14,2013,Trichoptera,non_destructive,3.8753590210565543,7.607381425639791
+CASENT9132522,G3,CAS_P29,NA,NA,NA,NA,135.4,1.68,0.7,Yes,NA,Diptera,Simuliidae,Cnephia,sp.,9/24/1983,2019-09-24,2019,Diptera,non_destructive,4.9082333604781745,7.610357618312838
+CASENT9132547,B1,CAS_P36,NA,NA,NA,NA,22.8,1.94,1.82,Yes,NA,Ephemeroptera,Ephemerellidae,Drunella,spinifera,9/30/16,2016-09-30,2016,Ephemeroptera,non_destructive,3.126760535960395,7.60887062919126
+CASENT9132577,D2,CAS_P36,NA,NA,NA,NA,145.3,1.95,1.17,Yes,NA,Trichoptera,Rhyacophilidae,Rhyacophila,sp.,7/14/13,2013-07-14,2013,Trichoptera,non_destructive,4.9788005705762375,7.607381425639791
+CASENT9132607,G6,CAS_P29,NA,NA,NA,NA,4.4,1.38,0.35,Yes,NA,Trichoptera,Glossosomatidae,Anagapetus,sp.,3/2/1983,2019-03-02,2019,Trichoptera,non_destructive,1.4816045409242156,7.610357618312838
+CASENT9132634,G7,CAS_P29,NA,NA,NA,NA,142.8,1.68,0.71,Yes,NA,Plecoptera,Chloroperlidae,Sweltsa,fidelis,4/17/1983,2019-04-17,2019,Plecoptera,non_destructive,4.9614450499054845,7.610357618312838
+CASENT9132642,F1,CAS_P36,NA,NA,NA,NA,98.9,1.97,1.95,Yes,NA,Ephemeroptera,Heptageniidae,Epeorus,sp.,7/14/13,2013-07-14,2013,Ephemeroptera,non_destructive,4.594109238628667,7.607381425639791
+CASENT9132647,G3,CAS_P36,NA,NA,NA,NA,100.5,2.02,1.81,Yes,NA,Ephemeroptera,Ephemerellidae,Drunella,doddsii,4/29/07,2007-04-29,2007,Ephemeroptera,non_destructive,4.61015772749913,7.604396348796338
+CASENT9132655,F8,CAS_P36,NA,NA,NA,NA,144.2,2.06,1.56,Yes,NA,Ephemeroptera,Heptageniidae,Epeorus,longimanus,5/10/11,2011-05-10,2011,Ephemeroptera,non_destructive,4.971201224850849,7.606387389772652
+CASENT9132665,F7,CAS_P29,NA,NA,NA,NA,139.1,1.69,0.71,Yes,NA,Plecoptera,Chloroperlidae,Sweltsa,fidelis,4/17/1983,2019-04-17,2019,Plecoptera,non_destructive,4.935193098929397,7.610357618312838
+CASENT9132687,C3,CAS_P36,NA,NA,NA,NA,55.5,2.02,2.04,Yes,NA,Plecoptera,Taeniopterygidae,Taenionema,sp.,4/29/07,2007-04-29,2007,Plecoptera,non_destructive,4.0163830207523885,7.604396348796338
+CASENT9132693,H2,CAS_P36,NA,NA,NA,NA,21.4,1.92,1.16,Yes,NA,Diptera,Simuliidae,Simulium,sp.,8/6/13,2013-08-06,2013,Diptera,non_destructive,3.0633909220278057,7.607381425639791
+CASENT9132696,B6,CAS_P29,NA,NA,NA,NA,13.1,1.48,0.35,Yes,NA,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,debilis,9/17/1982,2019-09-17,2019,Ephemeroptera,non_destructive,2.5726122302071057,7.610357618312838
+CASENT9132704,H1,CAS_P34,NA,NA,NA,NA,111,1.95,1.55,Yes,NA,Trichoptera,Rhyacophilidae,Rhyacophila,vedra,4/8/15,2015-04-08,2015,Trichoptera,non_destructive,4.709530201312334,7.608374474380783
+CASENT9132738,B1,CAS_P34,NA,NA,NA,NA,20.6,1.27,0.45,Yes,NA,Plecoptera,Pteronarcyidae,Pteronarcys,princeps,8/24/82,1982-08-24,1982,Plecoptera,non_destructive,3.0252910757955354,7.591861714889934
+CASENT9132741,C6,CAS_P29,NA,NA,NA,NA,2.6,2.93,0.3,Yes,NA,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,debilis,10/6/1980,2019-10-06,2019,Ephemeroptera,non_destructive,0.9555114450274363,7.610357618312838
+CASENT9132747,G1,CAS_P35,NA,NA,NA,NA,51.7,1.54,0.51,Yes,NA,Trichoptera,Sericostomatidae,Gumaga,griseola,9/30/16,2016-09-30,2016,Trichoptera,non_destructive,3.945457781514384,7.60887062919126
+CASENT9132773,D2,CAS_P34,NA,NA,NA,NA,93.9,0.87,0.53,Yes,NA,Diptera,Tipulidae,Tipula,sp.,5/11/11,2011-05-11,2011,Diptera,non_destructive,4.542230386214217,7.606387389772652
+CASENT9132776,H6,CAS_P37,NA,NA,NA,NA,26.3,2.03,2.21,Yes,NA,Plecoptera,Chloroperlidae,Sweltsa,townesi,5/17/07,2007-05-17,2007,Plecoptera,non_destructive,3.269568939183719,7.604396348796338
+CASENT9132780,D11,CAS_P36,NA,NA,NA,NA,95.7,1.97,1.6,Yes,NA,Ephemeroptera,Ameletidae,Ameletus,sp.,4/1/11,2011-04-01,2011,Ephemeroptera,non_destructive,4.5612182984589085,7.606387389772652
+CASENT9132795,E7,CAS_P36,NA,NA,NA,NA,77.9,2.08,1.6,Yes,NA,Ephemeroptera,Heptageniidae,Cinygmula,sp.,5/30/06,2006-05-30,2006,Ephemeroptera,non_destructive,4.355425952876702,7.603897968521881
+CASENT9132798,B2,CAS_P36,NA,NA,NA,NA,37.3,1.96,2.04,Yes,NA,Plecoptera,Perlidae,Calineuria,californica,7/14/13,2013-07-14,2013,Plecoptera,non_destructive,3.6189933266497696,7.607381425639791
+CASENT9132804,H6,CAS_P29,NA,NA,NA,NA,2.1,1.75,0.18,Yes,NA,Trichoptera,Glossosomatidae,Anagapetus,sp.,3/2/1983,2019-03-02,2019,Trichoptera,non_destructive,0.7419373447293773,7.610357618312838
+CASENT9132805,H1,CAS_P36,NA,NA,NA,NA,188.4,1.99,1.48,Yes,NA,Trichoptera,Brachycentridae,Brachycentrus,americanus,7/14/13,2013-07-14,2013,Trichoptera,non_destructive,5.238567362142263,7.607381425639791
+CASENT9132806,A1,CAS_P35,NA,NA,NA,NA,20.9,1.64,0.68,Yes,NA,Coleoptera,Hydrophilidae,Berosus,punctatissimus,2/23/17,2017-02-23,2017,Coleoptera,non_destructive,3.039749158970765,7.6093665379542115
+CASENT9132821,H5,CAS_P29,NA,NA,NA,NA,2.2,3.08,0.55,Yes,NA,Ephemeroptera,Leptophlebiidae,Paraleptophlebia,debilis,9/17/1982,2019-09-17,2019,Ephemeroptera,non_destructive,0.7884573603642703,7.610357618312838
+CASENT9132858,C4,CAS_P29,NA,NA,NA,NA,30.7,1.43,0.48,Yes,NA,Trichoptera,Odontoceridae,Parthina,linea,1/23/1984,2019-01-23,2019,Trichoptera,non_destructive,3.4242626545931514,7.610357618312838
+CASENT9132866,C3,CAS_P37,NA,NA,NA,NA,216.5,2.1,1.77,Yes,NA,Ephemeroptera,Heptageniidae,Ironodes,sp.,6/18/11,2011-06-18,2011,Ephemeroptera,non_destructive,5.377590547442544,7.606387389772652
+CASENT9132873,A12,CAS_P28,NA,NA,NA,NA,17.4,1.48,0.1,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,podagrum,4/1/1983,2019-04-01,2019,Trichoptera,non_destructive,2.856470206220483,7.610357618312838
+CASENT9132884,G5,CAS_P37,NA,NA,NA,NA,130.6,2.02,1.46,Yes,NA,Ephemeroptera,Ephemerellidae,Ephemerella,excrucians,5/17/07,2007-05-17,2007,Ephemeroptera,non_destructive,4.8721392168423305,7.604396348796338
+CASENT9132889,C12,CAS_P28,NA,NA,NA,NA,10.2,1.69,0.1,Yes,NA,Trichoptera,Lepidostomatidae,Lepidostoma,podagrum,4/1/1983,2019-04-01,2019,Trichoptera,non_destructive,2.3223877202902252,7.610357618312838
+CASENT9132909,G2,CAS_P36,NA,NA,NA,NA,11,1.88,0.93,Yes,NA,Trichoptera,Hydropsychidae,Hydropsyche,sp.,8/6/13,2013-08-06,2013,Trichoptera,non_destructive,2.3978952727983707,7.607381425639791
+CASENT9132949,H8,CAS_P29,NA,NA,NA,NA,123.4,2.09,1.51,Yes,NA,Diptera,Chaoboridae,Chaoborus,sp.,10/1/10,2010-10-01,2010,Diptera,non_destructive,4.815431111471288,7.605890001053122
+CASENT9132961,E4,CAS_P36,NA,NA,NA,NA,15.1,1.94,0.46,Yes,NA,Ephemeroptera,Heptageniidae,Cinygmula,sp.,4/29/07,2007-04-29,2007,Ephemeroptera,non_destructive,2.714694743820879,7.604396348796338
+CASENT9132987,A1,CAS_P36,NA,NA,NA,NA,19.6,1.98,1.47,Yes,NA,Plecoptera,Pteronarcyidae,Pteronarcella,regularis,9/30/16,2016-09-30,2016,Plecoptera,non_destructive,2.975529566236472,7.60887062919126

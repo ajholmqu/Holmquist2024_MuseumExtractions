@@ -1,0 +1,41 @@
+Sample ID,Extraction method,Sample Notes,HS Qubit Values (ng/uL),Nanodrop 260/280,Nanodrop 260/230
+200,Qiagen DNeasy Blood & Tissue Kit,Coleoptera,16.7,1.86,1.99
+201,Qiagen DNeasy Blood & Tissue Kit,Coleoptera,9,1.84,2.18
+202,Qiagen DNeasy Blood & Tissue Kit,Coleoptera,16.8,1.86,2.19
+203,Qiagen DNeasy Blood & Tissue Kit,Coleoptera,22.4,1.83,1.9
+204,Qiagen DNeasy Blood & Tissue Kit,Coleoptera,11.8,1.81,1.68
+220,Qiagen DNeasy Blood & Tissue Kit,Diptera,0.434,1.97,-1.74
+221,Qiagen DNeasy Blood & Tissue Kit,Diptera,1.79,1.9,2.39
+222,Qiagen DNeasy Blood & Tissue Kit,Diptera,1.64,1.66,3.04
+223,Qiagen DNeasy Blood & Tissue Kit,Diptera,1.06,1.97,9.16
+224,Qiagen DNeasy Blood & Tissue Kit,Diptera,2.04,1.81,2.94
+205,AJH's Ethanol Precipitation,Coleoptera,3.2,1.91,1.65
+206,AJH's Ethanol Precipitation,Coleoptera,2.06,1.88,1.42
+207,AJH's Ethanol Precipitation,Coleoptera,6.96,1.94,1.78
+208,AJH's Ethanol Precipitation,Coleoptera,4.76,1.92,1.79
+209,AJH's Ethanol Precipitation,Coleoptera,4.54,1.91,1.66
+225,AJH's Ethanol Precipitation,Diptera,0.0732,1.58,0.54
+226,AJH's Ethanol Precipitation,Diptera,0.198,1.86,0.42
+227,AJH's Ethanol Precipitation,Diptera,0.02,1.94,0.5
+228,AJH's Ethanol Precipitation,Diptera,0.382,2.11,0.78
+229,AJH's Ethanol Precipitation,Diptera,0.158,1.72,0.48
+210,Insect Barcoding Bead Clean,Coleoptera,8.74,2.24,1.66
+211,Insect Barcoding Bead Clean,Coleoptera,11.4,2.09,1.34
+212,Insect Barcoding Bead Clean,Coleoptera,9.8,2.3,1.65
+213,Insect Barcoding Bead Clean,Coleoptera,9.34,2.11,1.33
+214,Insect Barcoding Bead Clean,Coleoptera,8.78,2.28,1.62
+230,Insect Barcoding Bead Clean,Diptera,0.294,2.25,0.28
+231,Insect Barcoding Bead Clean,Diptera,0.17,1.41,0.23
+232,Insect Barcoding Bead Clean,Diptera,0.128,1.45,-0.08
+233,Insect Barcoding Bead Clean,Diptera,0.112,1.07,0.2
+234,Insect Barcoding Bead Clean,Diptera,0.0308,2,0.17
+215,Hotshot,Coleoptera,5.02,2.3,1.3
+216,Hotshot,Coleoptera,4.72,1.61,0.54
+217,Hotshot,Coleoptera,12.4,1.96,1.33
+218,Hotshot,Coleoptera,4.2,1.65,0.51
+219,Hotshot,Coleoptera,6.66,1.97,1.02
+235,Hotshot,Diptera,0.0384,1.16,0.29
+236,Hotshot,Diptera,0.0696,1.35,0.41
+237,Hotshot,Diptera,0.256,0.77,0.14
+238,Hotshot,Diptera,0.0488,1.16,0.31
+239,Hotshot,Diptera,0.0528,1.16,0.36

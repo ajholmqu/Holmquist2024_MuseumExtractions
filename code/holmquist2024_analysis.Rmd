@@ -1,0 +1,479 @@
+---
+title: "Towards large-scale museomics projects: a cost-effective and 
+high-throughput extraction method for obtaining historical DNA from 
+museum insect specimens"
+date: "2024-09-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(here)
+knitr::opts_knit$set(root.dir = here())
+```
+
+```{r echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+# Libraries
+library(tidyverse)
+library(rstatix)
+library(lme4)
+
+```
+
+```{r echo=FALSE, results='hide', message=FALSE, warning=FALSE}
+# Load data
+# Sample metadata
+collaborator_data <- read_csv("data/collaborator_metdata.csv")
+
+# Experiment 2
+nacl <- read_csv("data/nacl_test.csv")
+
+# Experiment 3
+extraction_comparisons <- read_csv("data/extractions_comp.csv")
+comparison_nanodrop <- read_csv("data/extractions_nanodrop.csv")
+
+# Experiment 4
+highthroughput_metadata <- read_csv("data/highthroughput_extracts.csv")
+highthroughput_nanodrop <- read_csv("data/highthroughput_nanodrop.csv")
+
+```
+
+Experiment #1 - PEG
+```{r}
+# Gel image
+```
+
+Experiment #2 - NaCl x PEG x ratio: data cleaning
+```{r echo=TRUE, message=FALSE}
+# Narrow data set and transform
+nacl_filt <- 
+  nacl %>%
+  # Normalize DNA concentration, nanodrop ratios and year
+  # Mutate categorical values for figures
+  mutate(
+    conc_norm = log(concentration),
+    r_260.280_norm = log(r_260.280),
+    r_260.230_norm = log(r_260.230),
+    year = as.numeric(format(as.Date(Date, format = "%m/%d/%y"), "%Y")),
+    year_norm = scale(year),
+    ratio_num = ifelse(ratio == "1.2x", 1.2, 1.5),
+    peg_num = ifelse(peg == "20%", 0.2, 0.21),
+    nacl_num = case_when(
+      nacl == "1M" ~ 1,
+      nacl == "2M" ~ 2,
+      nacl == "2.5M" ~ 2.5)) %>%
+  # Calculate median concentrations
+  group_by(catalog) %>%
+  mutate(median_conc = median(concentration)) %>%
+  ungroup() %>% 
+  # Only keep samples that have a median concentration above 20ng/ul 
+  # across  extraction methods
+  filter(median_conc > 20 & !is.na(year)) 
+
+# Create summary tables
+nacl_filt_table <- 
+  nacl_filt %>%
+  group_by(peg, nacl, ratio) %>%
+  summarise(median(concentration),
+            sd(concentration),
+            median(r_260.280),
+            median(r_260.230))
+
+sample_information <- 
+  nacl_filt %>%
+  group_by(catalog) %>%
+  filter(row_number() == 1) %>%
+  select(catalog,Scientific_Name, order, Family, Genus, Date)
+    
+```
+
+Experiment #2 - Mixed effects models
+```{r}
+
+# Mixed effects linear regression model: concentration
+
+    # Define null model with sample (catalog number) as random effect
+    conc_model_null <- lmer(conc_norm ~ 1 + (1 | catalog), REML = F,
+                       data = nacl_filt) 
+    
+    # Individual fixed effects
+    conc_model_nacl <- lmer(conc_norm ~ nacl + (1 | catalog),
+                            REML = F, data = nacl_filt)
+    conc_model_ratio <- lmer(conc_norm ~ ratio + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    conc_model_peg <- lmer(conc_norm ~ peg + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    conc_model_year <- lmer(conc_norm ~ year_norm + (1 | catalog), REML = F,
+                            data = nacl_filt)
+    
+    conc_aic <- 
+      AIC(
+      conc_model_null,
+      conc_model_nacl,
+      conc_model_ratio,
+      conc_model_peg,
+      conc_model_year) %>% rownames_to_column("model")
+    
+    conc_bic <- 
+      BIC(
+      conc_model_null,
+      conc_model_nacl,
+      conc_model_ratio,
+      conc_model_peg,
+      conc_model_year) %>% rownames_to_column("model")
+    
+    conc_crit <- left_join(conc_aic, conc_bic, by = c("model", "df"))
+    
+    ltr_conc <- anova(conc_model_year, conc_model_null) # 0.01353* 
+    
+    # Adding fixed effects to best individual model
+    conc_pegyear <- lmer(conc_norm ~ year_norm * peg + (1|catalog),
+                         data = nacl_filt, REML = F)
+    conc_naclyear <- lmer(conc_norm ~ year_norm * nacl + (1|catalog),
+                         data = nacl_filt, REML = F)
+    conc_ratioyear <- lmer(conc_norm ~ year_norm * ratio + (1|catalog),
+                         data = nacl_filt, REML = F)
+    
+    
+    conc_aic <- 
+      AIC(
+      conc_model_null,
+      conc_model_nacl,
+      conc_model_ratio,
+      conc_model_peg,
+      conc_model_year,
+      conc_naclyear) %>% rownames_to_column("model")
+    
+    conc_bic <- 
+      BIC(
+      conc_model_null,
+      conc_model_nacl,
+      conc_model_ratio,
+      conc_model_peg,
+      conc_model_year,
+      conc_naclyear) %>% rownames_to_column("model")
+    
+    conc_crit <- left_join(conc_aic, conc_bic, by = c("model", "df"))
+    # write_csv(conc_crit, "supplementary/conc_crit.csv")
+    
+    conc_ltr <- anova(conc_model_null, conc_naclyear)
+    # write_csv(conc_ltr, "supplementary/conc_ltr.csv")
+    
+    ltr_conc <- anova(conc_naclyear, conc_model_null) # 6.848e-06 ***
+    print(ltr_conc)
+    summary(conc_naclyear) # estimate = 0.687 unit increase in conc with year
+
+# Mixed effects - 260/280
+
+    # Null
+    null_260.280 <- lmer(r_260.280_norm ~ 1 + (1 | catalog), 
+                       data = nacl_filt, REML = F)
+    
+    # Individual fixed effects
+    nacl_260.280  <- lmer(r_260.280_norm ~ nacl + (1 | catalog),
+                        data = nacl_filt, REML = F)
+    ratio_260.280  <- lmer(r_260.280_norm ~ ratio + (1 | catalog),
+                        data = nacl_filt, REML = F)
+    peg_260.280  <- lmer(r_260.280_norm ~ peg + (1 | catalog),
+                        data = nacl_filt, REML = F)
+    year_260.280  <- lmer(r_260.280_norm ~ year_norm + (1 | catalog),
+                            data = nacl_filt, REML = F)
+    
+    r260.280_aic <- 
+      AIC(
+        null_260.280,
+        nacl_260.280, # -526.5827
+        ratio_260.280,
+        peg_260.280,
+        year_260.280)
+    
+    ltr_260.280 <- anova(null_260.280, nacl_260.280) # 1.604e-10 ***
+    
+    # Add fixed effects
+    naclpeg_260.280  <- lmer(r_260.280_norm ~ nacl*peg + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    naclratio_260.280  <- lmer(r_260.280_norm ~ nacl*ratio + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    naclyear_260.280  <- lmer(r_260.280_norm ~ nacl*year_norm + (1 | catalog), REML = F,
+                        data = nacl_filt)
+
+    r260.280_aic <- 
+      AIC(
+        null_260.280,
+        nacl_260.280, # -526.5827
+        ratio_260.280,
+        peg_260.280,
+        year_260.280,
+        naclpeg_260.280,
+        naclratio_260.280,
+        naclyear_260.280
+      ) %>% rownames_to_column("model")
+    
+    r260.280_bic <- 
+      BIC(
+        null_260.280,
+        nacl_260.280, # -526.5827
+        ratio_260.280,
+        peg_260.280,
+        year_260.280,
+        naclpeg_260.280,
+        naclratio_260.280,
+        naclyear_260.280
+      ) %>% rownames_to_column("model")
+    
+    r260.280_crit <- left_join(r260.280_aic, r260.280_bic, by = c("model", "df"))
+    # write_csv(r260.280_crit, "supplementary/r260.280_crit.csv")
+    
+    r260.280_ltr <- anova(null_260.280, naclyear_260.280)
+    #write_csv(r260.280_ltr, "supplementary/r260.280_ltr.csv")
+    print(r260.280_ltr)
+    summary(naclyear_260.280)
+
+# Mixed effects - 260/230
+
+    # Null
+    null_260.230 <- lmer(r_260.230_norm ~ 1 + (1 | catalog),
+                       data = nacl_filt, REML = F)
+    
+    
+    # Individual fixed effects
+    nacl_260.230  <- lmer(r_260.230_norm ~ nacl + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    ratio_260.230  <- lmer(r_260.230_norm ~ ratio + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    peg_260.230  <- lmer(r_260.230_norm ~ peg + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    year_260.230  <- lmer(r_260.230_norm ~ year_norm + (1 | catalog), REML = F,
+                            data = nacl_filt)
+    
+    r260.230_aic <- 
+      AIC(
+        null_260.230,
+        nacl_260.230, # 122.4037
+        ratio_260.230,
+        peg_260.230,
+        year_260.230)
+    
+    
+    # Adding fixed effects
+    naclpeg_260.230  <- lmer(r_260.230_norm ~ nacl*peg + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    naclratio_260.230  <- lmer(r_260.230_norm ~ nacl*ratio + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    naclyear_260.230  <- lmer(r_260.230_norm ~ nacl*year_norm + (1 | catalog), REML = F,
+                        data = nacl_filt)
+    
+    r260.230_aic <- 
+      AIC(
+        null_260.230,
+        nacl_260.230, # 122.4037
+        ratio_260.230,
+        peg_260.230,
+        year_260.230,
+        naclpeg_260.230,
+        naclratio_260.230,
+        naclyear_260.230
+      ) %>% rownames_to_column("model")
+    
+    r260.230_bic <- 
+      BIC(
+        null_260.230,
+        nacl_260.230, # 122.4037
+        ratio_260.230,
+        peg_260.230,
+        year_260.230,
+        naclpeg_260.230,
+        naclratio_260.230,
+        naclyear_260.230
+      ) %>% rownames_to_column("model")
+    
+    r260.230_crit <- left_join(r260.230_aic, r260.230_bic, by = c("model", "df"))
+    # write_csv(r260.230_crit, "supplementary/r260.230_crit.csv")
+    
+    r260.230_ltr <- anova(null_260.230, naclyear_260.230)
+    # write_csv(r260.230_ltr, "supplementary/r260.230_ltr.csv")
+    
+    print(r260.230_ltr)
+    summary(naclyear_260.230)
+
+# Amplification success
+    
+    # Mixed effects logistic regression
+    
+    # Null
+    pcr_model_null <- 
+      glmer(mini ~ 1 + (1|catalog), 
+                   family = binomial(link = "logit"), 
+                   data = nacl_filt)
+    
+    # Fixed effects
+    pcr_model_ratio <- glmer(mini ~ ratio + (1|catalog), 
+                             family = binomial(link = "logit"),
+                             data = nacl_filt)
+    pcr_model_nacl <- glmer(mini ~ nacl + (1|catalog), 
+                             family = binomial(link = "logit"),
+                             data = nacl_filt)
+    pcr_model_peg <- glmer(mini ~ peg + (1|catalog), 
+                             family = binomial(link = "logit"),
+                             data = nacl_filt)
+    pcr_model_year <- glmer(mini ~ year_norm + (1|catalog),
+                            family = binomial(link = "logit"),
+                            data=nacl_filt)
+    pcr_model_naclyear <- glmer(mini ~ nacl*year_norm + (1|catalog), 
+                             family = binomial(link = "logit"),
+                             data = nacl_filt)
+    pcr_model_naclpeg <- glmer(mini ~ nacl*peg + (1|catalog), 
+                             family = binomial(link = "logit"),
+                             data = nacl_filt)
+    pcr_model_naclratio <- glmer(mini ~ nacl*ratio + (1|catalog), 
+                             family = binomial(link = "logit"),
+                             data = nacl_filt)
+    
+    pcr_aic <- 
+      AIC(
+      pcr_model_null,
+      pcr_model_ratio,
+      pcr_model_nacl,
+      pcr_model_peg,
+      pcr_model_year,
+      pcr_model_naclyear,
+      pcr_model_naclpeg,
+      pcr_model_naclratio) %>% rownames_to_column("model")
+    
+    pcr_bic <- 
+      BIC(
+      pcr_model_null,
+      pcr_model_ratio,
+      pcr_model_nacl,
+      pcr_model_peg,
+      pcr_model_year,
+      pcr_model_naclyear,
+      pcr_model_naclpeg,
+      pcr_model_naclratio) %>% rownames_to_column("model")
+    
+    pcr_crit <- left_join(pcr_aic, pcr_bic, by = c("model", "df"))
+    # write_csv(pcr_crit, "supplementary/pcr_crit.csv")
+    
+    pcr_ltr <- anova(pcr_model_nacl, pcr_model_null)
+    # write_csv(pcr_ltr, "supplementary/pcr_ltr.csv")
+    
+    print(pcr_ltr)
+    summary(pcr_model_nacl)
+
+```
+
+Experiment #3 - Extraction methods
+```{r echo=TRUE, message=FALSE}
+extractions <- 
+  extraction_comparisons %>%
+  mutate(`Extraction method` = case_when(
+    `Extraction method` == "Qiagen DNeasy Blood & Tissue Kit" ~ "Qiagen DNeasy", 
+    `Extraction method` == "AJH's Ethanol Precipitation" ~ "Qiagen Puregene",
+    `Extraction method` == "Insect Barcoding Bead Clean" ~ "Bead-based method",
+    TRUE ~ "HotShot"
+  )) 
+
+extractions$`Extraction method` <- 
+  factor(extractions$`Extraction method`, 
+                        levels = c("HotShot", "Qiagen Puregene",
+                                   "Bead-based method", 
+                                   "Qiagen DNeasy")) 
+# Concentrations
+conc_summary <- 
+  extractions %>%
+  group_by(`Extraction method`, `Sample Notes`) %>%
+  summarise(median(`HS Qubit Values (ng/uL)`),
+            sd(`HS Qubit Values (ng/uL)`)
+            )
+
+diptera <- extractions %>%
+  rename(qubit = `HS Qubit Values (ng/uL)`,
+         method = `Extraction method`) %>%
+  filter(`Sample Notes` == "Diptera")
+
+coleo <- extractions %>%
+  rename(qubit = `HS Qubit Values (ng/uL)`,
+         method = `Extraction method`) %>%
+  filter(`Sample Notes` == "Coleoptera")
+
+dip_aov <- aov(qubit ~ method, data = diptera)
+dip_tukey <- TukeyHSD(dip_aov)
+
+coleo_aov <- aov(qubit ~ method, data = coleo)
+coleo_tukey <- TukeyHSD(coleo_aov)
+
+# Nanodrop values
+
+quality_summary <- 
+  comparison_nanodrop %>%
+  filter(taxa == "coleoptera") %>%
+  mutate(method = case_when(
+    method == "dneasy" ~ "Qiagen DNeasy", 
+    method == "alcohol" ~ "Qiagen Puregene",
+    method == "bead" ~ "Bead-based method",
+    method == "hs" ~ "HotShot"
+  )) %>%
+  group_by(method) %>%
+  summarise(median(`260/230`),
+            median(`260/280`))
+
+comparison_nanodrop <-   
+  comparison_nanodrop %>%
+  filter(taxa == "coleoptera") %>%
+  mutate(method = case_when(
+    method == "dneasy" ~ "Qiagen DNeasy", 
+    method == "alcohol" ~ "Qiagen Puregene",
+    method == "bead" ~ "Bead-based method",
+    method == "hs" ~ "HotShot"
+  )) 
+
+comparison_nanodrop$method <- 
+  factor(comparison_nanodrop$method, 
+                        levels = c("HotShot", "Qiagen Puregene",
+                                   "Bead-based method", 
+                                   "Qiagen DNeasy")) 
+
+comparison_nanodrop %>%
+  filter(taxa == "coleoptera") %>%
+  #anova_test(`260/230` ~ method) 
+  tukey_hsd(`260/230` ~ method)
+
+comparison_nanodrop %>%
+  filter(taxa == "coleoptera") %>%
+  group_by(method) %>% 
+  summarise(mean(`260/230`),
+            sd(`260/230`))
+
+```
+
+Experiment #4 - High-throughput extractions
+```{r}
+# Summary
+highthroughput_nanodrop %>%
+  filter(!is.na(order) & !is.na(year)) %>%
+  summarise(n_distinct(order), # Hempitera and Diptera duplicated, 2 less
+            mean(year))
+
+# Statistics
+
+dest <- highthroughput_nanodrop %>%
+  filter(method == "destructive") 
+conc_lm <- lm(conc_norm ~ year_norm, data = dest)
+summary(conc_lm)
+
+nondest <- highthroughput_nanodrop %>%
+  filter(method == "non_destructive") 
+conc_lm <- lm(conc_norm ~ year_norm, data = nondest)
+summary(conc_lm)
+
+# Method difference
+highthroughput_nanodrop %>%
+  group_by(method) %>%
+  summarise(mean(concentration),
+            median(concentration))
+
+method_aov <- aov(conc_norm ~ method, data = highthroughput_nanodrop)
+summary(method_aov)
+
+```
